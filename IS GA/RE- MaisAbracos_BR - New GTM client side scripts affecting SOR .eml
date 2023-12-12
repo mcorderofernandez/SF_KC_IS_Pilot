@@ -1,0 +1,1499 @@
+Received: from CY4PR06MB2534.namprd06.prod.outlook.com (2603:10b6:903:a::11)
+ by BL0PR06MB4979.namprd06.prod.outlook.com with HTTPS; Mon, 27 Sep 2021
+ 12:50:59 +0000
+Received: from CY4PR0601MB3586.namprd06.prod.outlook.com
+ (2603:10b6:910:8d::34) by CY4PR06MB2534.namprd06.prod.outlook.com
+ (2603:10b6:903:a::11) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4544.15; Mon, 27 Sep
+ 2021 12:50:58 +0000
+Received: from CY4PR0601MB3586.namprd06.prod.outlook.com
+ ([fe80::2504:e177:f42c:d159]) by CY4PR0601MB3586.namprd06.prod.outlook.com
+ ([fe80::2504:e177:f42c:d159%7]) with mapi id 15.20.4523.025; Mon, 27 Sep 2021
+ 12:50:58 +0000
+From: "Muhammed, AmeenAli" <AmeenAli.Muhammed@kcc.com>
+To: "Pacialeo, Victoria" <maria.victoria@kcc.com>, "Moncada Ayala, Gabriel F"
+	<gabriel.f.moncada@kcc.com>
+CC: Marciana Cojocaru <marciana.cojocaru@osf.digital>, Liliana Pantoja
+	<liliana.pantoja@osf.digital>, Tetyana Voitovich
+	<tetyana.voitovich@osf.digital>, "Doan, Audrey" <Audrey.Deemer@kcc.com>,
+	"Morais Vieira de, Rodrigo" <rodrigo.morais1@kcc.com>, "Austin, Glen"
+	<glen.austin@kcc.com>
+Subject: RE: MaisAbracos_BR - New GTM client side scripts affecting SOR 
+Thread-Topic: MaisAbracos_BR - New GTM client side scripts affecting SOR 
+Thread-Index: AdevPjNCHAH+tFeXRfeTPE1esUluDAAb0XkQAAAvtiAAAdO8cAD5bMuAAABgvtA=
+Date: Mon, 27 Sep 2021 12:50:57 +0000
+Message-ID:
+ <CY4PR0601MB3586AE22EC693BF3E2944BCDE6A79@CY4PR0601MB3586.namprd06.prod.outlook.com>
+References:
+ <DM6PR02MB394813FE2FBAFB66403A9471F7A19@DM6PR02MB3948.namprd02.prod.outlook.com>
+ <DM8PR06MB77033D87A24512D7CDF7A80A9BA29@DM8PR06MB7703.namprd06.prod.outlook.com>
+ <DM6PR02MB3948D9AB44D40135029E1950F7A29@DM6PR02MB3948.namprd02.prod.outlook.com>
+ <CY4PR0601MB3586E94094AB23CC8321CCE2E6A29@CY4PR0601MB3586.namprd06.prod.outlook.com>
+ <CO6PR06MB7699C9A4286A4ED622DB44769BA79@CO6PR06MB7699.namprd06.prod.outlook.com>
+In-Reply-To:
+ <CO6PR06MB7699C9A4286A4ED622DB44769BA79@CO6PR06MB7699.namprd06.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource:
+ CY4PR0601MB3586.namprd06.prod.outlook.com
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-Network-Message-Id:
+ 408ccfa5-dee1-4d6d-af30-08d981b573d2
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+msip_labels: MSIP_Label_f3a425e9-ff5b-4164-ab21-177a29e6432d_Enabled=True;
+ MSIP_Label_f3a425e9-ff5b-4164-ab21-177a29e6432d_SiteId=fee2180b-69b6-4afe-9f14-ccd70bd4c737;
+ MSIP_Label_f3a425e9-ff5b-4164-ab21-177a29e6432d_Owner=maria.victoria@kcc.com;
+ MSIP_Label_f3a425e9-ff5b-4164-ab21-177a29e6432d_SetDate=2021-09-22T12:32:08.1215791Z;
+ MSIP_Label_f3a425e9-ff5b-4164-ab21-177a29e6432d_Name=K-C Internal Only;
+ MSIP_Label_f3a425e9-ff5b-4164-ab21-177a29e6432d_Application=Microsoft Azure
+ Information Protection;
+ MSIP_Label_f3a425e9-ff5b-4164-ab21-177a29e6432d_ActionId=33903392-265b-4267-ae2f-9e4f2f9f0a4c;
+ MSIP_Label_f3a425e9-ff5b-4164-ab21-177a29e6432d_Extended_MSFT_Method=Manual;
+ MSIP_Label_3c6d4f70-f7df-4256-b691-fd1ca9f63897_Enabled=True;
+ MSIP_Label_3c6d4f70-f7df-4256-b691-fd1ca9f63897_SiteId=fee2180b-69b6-4afe-9f14-ccd70bd4c737;
+ MSIP_Label_3c6d4f70-f7df-4256-b691-fd1ca9f63897_Owner=maria.victoria@kcc.com;
+ MSIP_Label_3c6d4f70-f7df-4256-b691-fd1ca9f63897_SetDate=2021-09-22T12:32:08.1215791Z;
+ MSIP_Label_3c6d4f70-f7df-4256-b691-fd1ca9f63897_Name=With Content Marking;
+ MSIP_Label_3c6d4f70-f7df-4256-b691-fd1ca9f63897_Application=Microsoft Azure
+ Information Protection;
+ MSIP_Label_3c6d4f70-f7df-4256-b691-fd1ca9f63897_ActionId=33903392-265b-4267-ae2f-9e4f2f9f0a4c;
+ MSIP_Label_3c6d4f70-f7df-4256-b691-fd1ca9f63897_Parent=f3a425e9-ff5b-4164-ab21-177a29e6432d;
+ MSIP_Label_3c6d4f70-f7df-4256-b691-fd1ca9f63897_Extended_MSFT_Method=Manual
+x-ms-publictraffictype: Email
+x-ms-exchange-organization-originalserveripaddress: 2603:10b6:910:8d::34
+x-ms-exchange-organization-originalclientipaddress: 165.225.57.39
+authentication-results: kcc.com; dkim=none (message not signed)
+ header.d=none;kcc.com; dmarc=none action=none header.from=kcc.com;
+x-ms-office365-filtering-correlation-id: 408ccfa5-dee1-4d6d-af30-08d981b573d2
+x-ms-traffictypediagnostic: CY4PR06MB2534:
+x-ms-oob-tlc-oobclassifiers: OLM:4941;
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:CY4PR0601MB3586.namprd06.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-microsoft-antispam: BCL:0;
+x-ms-exchange-crosstenant-network-message-id:
+ 408ccfa5-dee1-4d6d-af30-08d981b573d2
+x-ms-exchange-crosstenant-originalarrivaltime: 27 Sep 2021 12:50:58.0097 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-transport-crosstenantheadersstamped: CY4PR06MB2534
+x-ms-exchange-crosstenant-id: fee2180b-69b6-4afe-9f14-ccd70bd4c737
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+ MxIb2r+5+DcewMDS328F5shmPSOit2i7dJdsFuPMZozkES9UBy5yxPXWZlDAEkMrDIdpdNKveuCoaBN3OFjRkGxRILuospGGBAmth7HxRuQ=
+x-ms-exchange-transport-endtoendlatency: 00:00:01.7356675
+x-ms-exchange-processed-by-bccfoldering: 15.20.4544.021
+x-ms-exchange-crosstenant-authsource:
+ CY4PR0601MB3586.namprd06.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+x-ms-exchange-transport-forked: True
+x-ld-processed: fee2180b-69b6-4afe-9f14-ccd70bd4c737,ExtAddr
+x-ms-exchange-atpmessageproperties: SL
+X-Microsoft-Antispam-Mailbox-Delivery:
+ ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(750132)(520011016)(706158);
+X-Microsoft-Antispam-Message-Info:
+ EvuygtI5cxf8zTexzuFN1ndTp2tjiQg11eu8DRApTXqoJ/AgueUcJ0CCKmE5XQhMVhZW1VVwoe7vvmJlp1dsuYw8tF7R8hcv2qyIpDemGBL21VjLGjCSdPy8Kpxc+wgAGQfAH5C+gFxuWn3/0sh9+MgP/eYOiGQXyW6dvndDTqJJKAVasjZ0GY1Vct2i/HOSBsD5eGY4fMBNNz1Fk1KiGxFE3RClaQGbx6/Yaddg4NuEDooMTFmlKlWRDEFVFLGpeTS6oFacuHUSXwya55kG2loxMRT7t6cgJAt2dWTuyqWlgmKj3IpG7mfFV3dNSUUFxULPo0OW6VvbZ0z2skWb3x8wCnNp5O5Rj2Jc2ew6ZA6L20gd4YSXEVIHomd5buY9PZ1PLie+ltDO56srVhJFB8Zx0mFR/yNqldPBBrpHXPr+VpG81bPKWY+MiiHa3+UIu2Majcldwi7TA8qLujS2sfMqdpKGZN7LDtDy5TMHU9RyduPDpZonnR15FpG17438X7gFlRtPRAhrlLNztz0lGxmmiUq9rQqUtOjVdX3oC0h8PtidNU5GQQ2nD2Kl8hPk38nTZRzNwpRUHxg9HMDH3F4/h625DxxpS+aweKCQhwcHrUhCFWuE6sSA+EX4m3X5iXEGFdUEBpE8YgCV3j/3RW9Mbh3s1+K4WZL69Wt/+KL8eSBhGBBii/lSkcVOgPfP/Y3Pdjn4YQVpUvyJGvafVguFqx+YEJowaLsYhLc4e77uFti398hZgbzsi3i9RxhW
+Content-Type: multipart/related;
+	boundary="_007_CY4PR0601MB3586AE22EC693BF3E2944BCDE6A79CY4PR0601MB3586_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_007_CY4PR0601MB3586AE22EC693BF3E2944BCDE6A79CY4PR0601MB3586_
+Content-Type: multipart/alternative;
+	boundary="_000_CY4PR0601MB3586AE22EC693BF3E2944BCDE6A79CY4PR0601MB3586_"
+
+--_000_CY4PR0601MB3586AE22EC693BF3E2944BCDE6A79CY4PR0601MB3586_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: Quoted-printable
+
+Hi Victoria/Gabriel,
+
+
+
+The issue was fixed when the 'Evergage' tag containing the following script=
+ was paused in STG. The tag is not found in PRD.
+
+
+
+<script type=3D"text/javascript" src=3D"//cdn.evgnet.com/beacon/kimberlycla=
+rk/laotest/scripts/evergage.min.js"></script>
+
+
+
+Regards,
+
+Ameen
+
+
+
+
+
+
+
+K-C Internal Only
+
+From: Pacialeo, Victoria
+Sent: Monday, September 27, 2021 6:01 PM
+To: Muhammed, AmeenAli <AmeenAli.Muhammed@kcc.com>; Tetyana Voitovich <tety=
+ana.voitovich@osf.digital>; Doan, Audrey <Audrey.Deemer@kcc.com>; Austin, G=
+len <glen.austin@kcc.com>; Morais Vieira de, Rodrigo <rodrigo.morais1@kcc.c=
+om>
+Cc: Marciana Cojocaru <marciana.cojocaru@osf.digital>; Liliana Pantoja <lil=
+iana.pantoja@osf.digital>; Moncada Ayala, Gabriel F <gabriel.f.moncada@kcc.=
+com>
+Subject: RE: MaisAbracos_BR - New GTM client side scripts affecting SOR
+
+
+
+Tetyana,
+
+
+
+Is the issue still reproducing in staging or dev? Could you please give Ame=
+en more details?
+
+
+
+Thank you!
+
+Victoria Pacialeo
+
+ITS Product Owner eCommerce
+
+E-mail: maria.victoria@kcc.com<mailto:maria.victoria@kcc.com>
+
+
+
+
+
+
+
+K-C Internal Only
+
+De: Muhammed, AmeenAli <AmeenAli.Muhammed@kcc.com<mailto:AmeenAli.Muhammed@=
+kcc.com>>
+Enviado el: Wednesday, September 22, 2021 10:37 AM
+Para: Tetyana Voitovich <tetyana.voitovich@osf.digital<mailto:tetyana.voito=
+vich@osf.digital>>; Pacialeo, Victoria <maria.victoria@kcc.com<mailto:maria=
+.victoria@kcc.com>>; Doan, Audrey <Audrey.Deemer@kcc.com<mailto:Audrey.Deem=
+er@kcc.com>>; Austin, Glen <glen.austin@kcc.com<mailto:glen.austin@kcc.com>=
+>; Morais Vieira de, Rodrigo <rodrigo.morais1@kcc.com<mailto:rodrigo.morais=
+1@kcc.com>>
+CC: Marciana Cojocaru <marciana.cojocaru@osf.digital<mailto:marciana.cojoca=
+ru@osf.digital>>; Liliana Pantoja <liliana.pantoja@osf.digital<mailto:lilia=
+na.pantoja@osf.digital>>; Moncada Ayala, Gabriel F <gabriel.f.moncada@kcc.c=
+om<mailto:gabriel.f.moncada@kcc.com>>
+Asunto: RE: MaisAbracos_BR - New GTM client side scripts affecting SOR
+
+
+
+Hi Tetyana/Victoria,
+
+
+
+The last change we had in the GTM for stage was in August 11th. Could you p=
+lease help us with more screenshots to know how the correct result would lo=
+ok like. Also, please let us know when did u notice the alerts (on 'add to =
+cart' click?) so that we can test the GTM tags.
+
+
+
+I tested for the product given and the subscription value was reflected as =
+shown below:
+
+
+
+
+
+
+
+Thanks,
+
+Ameen
+
+
+
+
+
+K-C Internal Only
+
+From: Tetyana Voitovich [mailto:tetyana.voitovich@osf.digital]
+Sent: Wednesday, September 22, 2021 6:05 PM
+To: Pacialeo, Victoria <maria.victoria@kcc.com<mailto:maria.victoria@kcc.co=
+m>>; Muhammed, AmeenAli <AmeenAli.Muhammed@kcc.com<mailto:AmeenAli.Muhammed=
+@kcc.com>>; Doan, Audrey <Audrey.Deemer@kcc.com<mailto:Audrey.Deemer@kcc.co=
+m>>; Austin, Glen <glen.austin@kcc.com<mailto:glen.austin@kcc.com>>; Morais=
+ Vieira de, Rodrigo <rodrigo.morais1@kcc.com<mailto:rodrigo.morais1@kcc.com=
+>>
+Cc: Marciana Cojocaru <marciana.cojocaru@osf.digital<mailto:marciana.cojoca=
+ru@osf.digital>>; Liliana Pantoja <liliana.pantoja@osf.digital<mailto:lilia=
+na.pantoja@osf.digital>>; Moncada Ayala, Gabriel F <gabriel.f.moncada@kcc.c=
+om<mailto:gabriel.f.moncada@kcc.com>>
+Subject: RE: MaisAbracos_BR - New GTM client side scripts affecting SOR
+
+
+
+CAUTION: This email originated from outside the organization.
+
+
+
+Yes, I did and on PRD all is OK.
+
+
+
+Thanks,
+
+Tetyana.
+
+
+
+From: Pacialeo, Victoria <maria.victoria@kcc.com<mailto:maria.victoria@kcc.=
+com>>
+Sent: Wednesday, September 22, 2021 8:34 AM
+To: Tetyana Voitovich <tetyana.voitovich@osf.digital<mailto:tetyana.voitovi=
+ch@osf.digital>>; Muhammed, AmeenAli <AmeenAli.Muhammed@kcc.com<mailto:Amee=
+nAli.Muhammed@kcc.com>>; Doan, Audrey <Audrey.Deemer@kcc.com<mailto:Audrey.=
+Deemer@kcc.com>>; Austin, Glen <glen.austin@kcc.com<mailto:glen.austin@kcc.=
+com>>; Morais Vieira de, Rodrigo <rodrigo.morais1@kcc.com<mailto:rodrigo.mo=
+rais1@kcc.com>>
+Cc: Marciana Cojocaru <marciana.cojocaru@osf.digital<mailto:marciana.cojoca=
+ru@osf.digital>>; Liliana Pantoja <liliana.pantoja@osf.digital<mailto:lilia=
+na.pantoja@osf.digital>>; Moncada Ayala, Gabriel F <gabriel.f.moncada@kcc.c=
+om<mailto:gabriel.f.moncada@kcc.com>>
+Subject: RE: MaisAbracos_BR - New GTM client side scripts affecting SOR
+
+
+
++ Gabriel
+
+
+
+@Tetyana Voitovich<mailto:tetyana.voitovich@osf.digital>,
+
+Have you confirmed that this is not happening in production?
+
+
+
+@Muhammed, AmeenAli<mailto:AmeenAli.Muhammed@kcc.com> have you been testing=
+ something in MA that may be causing this conflict? Please, help us trouble=
+shoot if this is a change implemented by any agency.
+
+
+
+Regards,
+
+Victoria Pacialeo
+
+ITS Product Owner eCommerce
+
+E-mail: maria.victoria@kcc.com<mailto:maria.victoria@kcc.com>
+
+
+
+
+
+
+
+K-C Internal Only
+
+De: Tetyana Voitovich <tetyana.voitovich@osf.digital<mailto:tetyana.voitovi=
+ch@osf.digital>>
+Enviado el: Tuesday, September 21, 2021 8:24 PM
+Para: Muhammed, AmeenAli <AmeenAli.Muhammed@kcc.com<mailto:AmeenAli.Muhamme=
+d@kcc.com>>; Doan, Audrey <Audrey.Deemer@kcc.com<mailto:Audrey.Deemer@kcc.c=
+om>>; Austin, Glen <glen.austin@kcc.com<mailto:glen.austin@kcc.com>>; Morai=
+s Vieira de, Rodrigo <rodrigo.morais1@kcc.com<mailto:rodrigo.morais1@kcc.co=
+m>>; Pacialeo, Victoria <maria.victoria@kcc.com<mailto:maria.victoria@kcc.c=
+om>>
+CC: Marciana Cojocaru <marciana.cojocaru@osf.digital<mailto:marciana.cojoca=
+ru@osf.digital>>; Liliana Pantoja <liliana.pantoja@osf.digital<mailto:lilia=
+na.pantoja@osf.digital>>
+Asunto: MaisAbracos_BR - New GTM client side scripts affecting SOR
+
+
+
+CAUTION: This email originated from outside the organization.
+
+
+
+Hello there,
+
+
+
+We saw a problem with SOR for BR appearing at both STG and DEV - when GTM i=
+s enabled products subscription info is not added to cart along with produc=
+t even though customer selects subscription interval, the controller SmartO=
+rderRefillController-UpdateCartProductRefillInformation is simply not calle=
+d. You can check it on this product for example https://urldefense.proofpoi=
+nt.com/v2/url?u=3Dhttps-3A__staging-2Dna01-2Dkimberlyclark.demandware.net_s=
+_MaisAbracos-5FBR_produtos_kits_4-2Dfraldas-2Dtripla-2Dprotecao-2Dhiper-2Dm=
+_Fral-2DTP-2DKIT-2DM-2D4.html&d=3DDwIFAw&c=3DeIGjsITfXP_y-DLLX0uEHXJvU8nOHr=
+UK8IrwNKOtkVU&r=3D_urQ8JQUiPzyP2LOqk3cZvQtuyAddSxOjlUXjjlCA8-WJzP0upHZImI6f=
+A3Fpi8G&m=3Dhq7LeaszOhkUR2WtX09DdjcFj5_dynSQ5gfW4yTL2z4&s=3DU29kvk7UzZuizNd=
+AOgFthTAvSxKJweFFvgQza3QHbS4&e=3D <https://urldefense.com/v3/__https:/can01=
+.safelinks.protection.outlook.com/?url=3Dhttps*3A*2F*2Furldefense.com*2Fv3*=
+2F__https*3A*2Fstaging-na01-kimberlyclark.demandware.net*2Fs*2FMaisAbracos_=
+BR*2Fprodutos*2Fkits*2F4-fraldas-tripla-protecao-hiper-m*2FFral-TP-KIT-M-4.=
+html__*3B!!O6qgkg!hANcTsbQbCCazo4vCINfn5wxV8xt_mMcwSgynfHlgEHe-2vqc3uqTFtSW=
+oHUF1sDgA*24&data=3D04*7C01*7Ctetyana.voitovich*40osf.digital*7Cc89a3e4c290=
+84c2da9dd08d97dc53a67*7Cc1e1ed72f1a440499e464c91471e0e87*7C1*7C0*7C63767910=
+8314111445*7CUnknown*7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJB=
+TiI6Ik1haWwiLCJXVCI6Mn0*3D*7C1000&sdata=3DYNjRKXv7qCcfgA9rEMRIkGv1RDHRS*2F8=
+Fpw5ZDQ*2FnsLg*3D&reserved=3D0__;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUl!!=
+O6qgkg!jz6oFFbIuc4iqtyY-vtM6J3FPb-XoDi_o_F52SD-jHAHTXNwlpkdmomjl8BCEJAonZA$>
+
+
+
+When GTM is enabled, there are some odd alerts appearing like this
+
+
+
+
+
+I believe the script causing the alerts causes the SOR issue as well.
+
+
+
+Can someone please look into it?
+
+
+
+
+
+Thanks,
+
+
+
+Tetyana Voitovich
+
+
+A Commerce and Digital Cloud Transformation Company
+
+<https://urldefense.com/v3/__https:/can01.safelinks.protection.outlook.com/=
+?url=3Dhttps*3A*2F*2Furldefense.com*2Fv3*2F__https*3A*2Fcan01.safelinks.pro=
+tection.outlook.com*2F*3Furl*3Dhttps*3A*2F*2Fosf.digital*2F*3Futm_source*3D=
+signature*26utm_medium*3Demail*26utm_campaign*3Dlogo*26utm_term*3Dimage*26u=
+tm_content*3Den-global*26data*3D02*7C01*7C*7Cf41f0dfd9aae451d967808d7d1f422=
+38*7Cc1e1ed72f1a440499e464c91471e0e87*7C1*7C0*7C637208718777692473*26sdata*=
+3DiQOlXBIP9pncmYMuEFcr8X9iWKzCAk1ujgyLOGNGkE4*3D*26reserved*3D0__*3BJSUlJSU=
+lJSUlJSUlJSUlJSUlJSUlJQ!!O6qgkg!hANcTsbQbCCazo4vCINfn5wxV8xt_mMcwSgynfHlgEH=
+e-2vqc3uqTFtSWoGL9NAq3g*24&data=3D04*7C01*7Ctetyana.voitovich*40osf.digital=
+*7Cc89a3e4c29084c2da9dd08d97dc53a67*7Cc1e1ed72f1a440499e464c91471e0e87*7C1*=
+7C0*7C637679108314121440*7CUnknown*7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIj=
+oiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0*3D*7C1000&sdata=3DKl9F*2FWVxSL9LXo9do=
+VMuoHcsRt4YOnF5o7EjxIw4HM8*3D&reserved=3D0__;JSUlJSUlJSUlJSoqKioqKioqKioqKi=
+oqJSUqKioqKioqJSUqJSUlJSUlJSUlJSUlJSUlJSUl!!O6qgkg!jz6oFFbIuc4iqtyY-vtM6J3F=
+Pb-XoDi_o_F52SD-jHAHTXNwlpkdmomjl8BCZVdQN3w$>
+
+
+
+
+
+CONFIDENTIALITY: This e-mail and any attachment may contain confidential an=
+d/or privileged information intended for the exclusive use of the recipient=
+(s). Unauthorized copy, use, distribution or disclosure of any information =
+contained in this message or of its attachments is strictly prohibited. If =
+you are not the aimed person or if you received this message in error, plea=
+se notify the sender immediately and delete this message, all attachments a=
+nd backups thereof.
+
+
+CONFIDENTIALIT=C9 : Ce courriel et toute pi=E8ce jointe peuvent contenir de=
+s informations confidentielles et/ou privil=E9gi=E9es destin=E9es =E0 l'usa=
+ge exclusif du ou des destinataires. La copie, l'utilisation, la distributi=
+on ou la divulgation non autoris=E9e de toute information contenue dans ce =
+message ou dans ses pi=E8ces jointes est strictement interdite. Si vous n'=
+=EAtes pas la personne vis=E9e ou si vous avez re=E7u ce message par erreur=
+, veuillez en informer imm=E9diatement l'exp=E9diteur et supprimer ce messa=
+ge, toutes les pi=E8ces jointes et leurs sauvegardes.
+
+CONFIDENTIALITY: This e-mail and any attachment may contain confidential an=
+d/or privileged information intended for the exclusive use of the recipient=
+(s). Unauthorized copy, use, distribution or disclosure of any information =
+contained in this message or of its attachments is strictly prohibited. If =
+you are not the aimed person or if you received this message in error, plea=
+se notify the sender immediately and delete this message, all attachments a=
+nd backups thereof.
+
+
+CONFIDENTIALIT=C9 : Ce courriel et toute pi=E8ce jointe peuvent contenir de=
+s informations confidentielles et/ou privil=E9gi=E9es destin=E9es =E0 l'usa=
+ge exclusif du ou des destinataires. La copie, l'utilisation, la distributi=
+on ou la divulgation non autoris=E9e de toute information contenue dans ce =
+message ou dans ses pi=E8ces jointes est strictement interdite. Si vous n'=
+=EAtes pas la personne vis=E9e ou si vous avez re=E7u ce message par erreur=
+, veuillez en informer imm=E9diatement l'exp=E9diteur et supprimer ce messa=
+ge, toutes les pi=E8ces jointes et leurs sauvegardes.
+
+
+--_000_CY4PR0601MB3586AE22EC693BF3E2944BCDE6A79CY4PR0601MB3586_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msipfooterd86eec25, li.msipfooterd86eec25, div.msipfooterd86eec25
+	{mso-style-name:msipfooterd86eec25;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:42.5pt 42.5pt 42.5pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Hi Victoria/Gabriel,<o=
+:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">The issue was fixed wh=
+en the &#8216;Evergage&#8217; tag containing the following script was pause=
+d in STG. The tag is not found in PRD.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">&lt;script type=3D&quo=
+t;text/javascript&quot; src=3D&quot;//cdn.evgnet.com/beacon/kimberlyclark/l=
+aotest/scripts/evergage.min.js&quot;&gt;&lt;/script&gt;<o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Regards,<o:p></o:p></s=
+pan></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Ameen <o:p></o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"msipfooterd86eec25" style=3D"margin:0in;margin-bottom:.0001pt">=
+<span style=3D"font-size:10.0pt;color:black">K-C Internal Only</span><o:p><=
+/o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Pacialeo, Victoria <br>
+<b>Sent:</b> Monday, September 27, 2021 6:01 PM<br>
+<b>To:</b> Muhammed, AmeenAli &lt;AmeenAli.Muhammed@kcc.com&gt;; Tetyana Vo=
+itovich &lt;tetyana.voitovich@osf.digital&gt;; Doan, Audrey &lt;Audrey.Deem=
+er@kcc.com&gt;; Austin, Glen &lt;glen.austin@kcc.com&gt;; Morais Vieira de,=
+ Rodrigo &lt;rodrigo.morais1@kcc.com&gt;<br>
+<b>Cc:</b> Marciana Cojocaru &lt;marciana.cojocaru@osf.digital&gt;; Liliana=
+ Pantoja &lt;liliana.pantoja@osf.digital&gt;; Moncada Ayala, Gabriel F &lt;=
+gabriel.f.moncada@kcc.com&gt;<br>
+<b>Subject:</b> RE: MaisAbracos_BR - New GTM client side scripts affecting =
+SOR <o:p>
+</o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Tetyana, <o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Is the issue still reproducing in staging or dev? Co=
+uld you please give Ameen more details?<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Thank you!<o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:#2F5496">Victoria Pacialeo</span></b><span st=
+yle=3D"font-size:10.0pt;color:#2F5496"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif;color:gray">ITS Product Owner eCommerce</span><o:p></o:=
+p></p>
+<p class=3D"MsoNormal" style=3D"background:white"><span lang=3D"ES-AR" styl=
+e=3D"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#7F7F7F=
+;border:none windowtext 1.0pt;padding:0in">E-mail:
+<a href=3D"mailto:maria.victoria@kcc.com">maria.victoria@kcc.com</a> </span=
+><o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#1F497D"><img =
+border=3D"0" width=3D"127" height=3D"25" id=3D"Imagen_x0020_5" src=3D"cid:i=
+mage001.png@01D7B3CA.D71F2FF0" alt=3D"cid:image001.png@01D7B3CA.D71F2FF0"><=
+/span><span lang=3D"ES-AR" style=3D"font-size:10.0pt;color:#1F497D"><o:p></=
+o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"msipfooterd86eec25" style=3D"margin:0in;margin-bottom:.0001pt">=
+<span style=3D"font-size:10.0pt;color:black">K-C Internal Only</span><o:p><=
+/o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span lang=3D"ES">De:</span></b><span lang=3D"ES"=
+> Muhammed, AmeenAli &lt;<a href=3D"mailto:AmeenAli.Muhammed@kcc.com">Ameen=
+Ali.Muhammed@kcc.com</a>&gt;
+<br>
+<b>Enviado el:</b> Wednesday, September 22, 2021 10:37 AM<br>
+<b>Para:</b> Tetyana Voitovich &lt;<a href=3D"mailto:tetyana.voitovich@osf.=
+digital">tetyana.voitovich@osf.digital</a>&gt;; Pacialeo, Victoria &lt;<a h=
+ref=3D"mailto:maria.victoria@kcc.com">maria.victoria@kcc.com</a>&gt;; Doan,=
+ Audrey &lt;<a href=3D"mailto:Audrey.Deemer@kcc.com">Audrey.Deemer@kcc.com<=
+/a>&gt;;
+ Austin, Glen &lt;<a href=3D"mailto:glen.austin@kcc.com">glen.austin@kcc.co=
+m</a>&gt;; Morais Vieira de, Rodrigo &lt;<a href=3D"mailto:rodrigo.morais1@=
+kcc.com">rodrigo.morais1@kcc.com</a>&gt;<br>
+<b>CC:</b> Marciana Cojocaru &lt;<a href=3D"mailto:marciana.cojocaru@osf.di=
+gital">marciana.cojocaru@osf.digital</a>&gt;; Liliana Pantoja &lt;<a href=
+=3D"mailto:liliana.pantoja@osf.digital">liliana.pantoja@osf.digital</a>&gt;=
+; Moncada Ayala, Gabriel F &lt;<a href=3D"mailto:gabriel.f.moncada@kcc.com"=
+>gabriel.f.moncada@kcc.com</a>&gt;<br>
+<b>Asunto:</b> RE: MaisAbracos_BR - New GTM client side scripts affecting S=
+OR <o:p>
+</o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Hi Tetyana/Victoria,<o=
+:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">The last change we had=
+ in the GTM for stage was in August 11<sup>th</sup>. Could you please help =
+us with more screenshots to know how the correct result would look like. Al=
+so, please let us know when did u notice
+ the alerts (on &#8216;add to cart&#8217; click?) so that we can test the G=
+TM tags.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">I tested for the produ=
+ct given and the subscription value was reflected as shown below:<o:p></o:p=
+></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><img border=3D"0" width=3D"492" height=3D"246" id=3D=
+"Picture_x0020_4" src=3D"cid:image002.jpg@01D7B3CA.D71F2FF0" alt=3D"cid:ima=
+ge002.jpg@01D7B3CA.D71F2FF0"><span style=3D"color:#1F497D"><o:p></o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Thanks,<o:p></o:p></sp=
+an></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Ameen <o:p></o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"msipfooterd86eec25" style=3D"margin:0in;margin-bottom:.0001pt">=
+<span style=3D"font-size:10.0pt;color:black">K-C Internal Only</span><o:p><=
+/o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Tetyana Voitovich [<a href=3D"mailto:te=
+tyana.voitovich@osf.digital">mailto:tetyana.voitovich@osf.digital</a>]
+<br>
+<b>Sent:</b> Wednesday, September 22, 2021 6:05 PM<br>
+<b>To:</b> Pacialeo, Victoria &lt;<a href=3D"mailto:maria.victoria@kcc.com"=
+>maria.victoria@kcc.com</a>&gt;; Muhammed, AmeenAli &lt;<a href=3D"mailto:A=
+meenAli.Muhammed@kcc.com">AmeenAli.Muhammed@kcc.com</a>&gt;; Doan, Audrey &=
+lt;<a href=3D"mailto:Audrey.Deemer@kcc.com">Audrey.Deemer@kcc.com</a>&gt;;
+ Austin, Glen &lt;<a href=3D"mailto:glen.austin@kcc.com">glen.austin@kcc.co=
+m</a>&gt;; Morais Vieira de, Rodrigo &lt;<a href=3D"mailto:rodrigo.morais1@=
+kcc.com">rodrigo.morais1@kcc.com</a>&gt;<br>
+<b>Cc:</b> Marciana Cojocaru &lt;<a href=3D"mailto:marciana.cojocaru@osf.di=
+gital">marciana.cojocaru@osf.digital</a>&gt;; Liliana Pantoja &lt;<a href=
+=3D"mailto:liliana.pantoja@osf.digital">liliana.pantoja@osf.digital</a>&gt;=
+; Moncada Ayala, Gabriel F &lt;<a href=3D"mailto:gabriel.f.moncada@kcc.com"=
+>gabriel.f.moncada@kcc.com</a>&gt;<br>
+<b>Subject:</b> RE: MaisAbracos_BR - New GTM client side scripts affecting =
+SOR <o:p>
+</o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div style=3D"border:solid #9C6500 1.0pt;padding:2.0pt 2.0pt 2.0pt 2.0pt">
+<p class=3D"MsoNormal" style=3D"line-height:12.0pt;background:#FFEB9C"><b><=
+span style=3D"font-size:10.0pt;color:#9C6500">CAUTION:</span></b><span styl=
+e=3D"font-size:10.0pt;color:black"> This email originated from outside the =
+organization.<o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif"><o:p>&nbsp;</o:p></span></p>
+<div>
+<p class=3D"MsoNormal">Yes, I did and on PRD all is OK.<o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal">Thanks,<o:p></o:p></p>
+<p class=3D"MsoNormal">Tetyana.<o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Pacialeo, Victoria &lt;<a href=3D"mailt=
+o:maria.victoria@kcc.com">maria.victoria@kcc.com</a>&gt;
+<br>
+<b>Sent:</b> Wednesday, September 22, 2021 8:34 AM<br>
+<b>To:</b> Tetyana Voitovich &lt;<a href=3D"mailto:tetyana.voitovich@osf.di=
+gital">tetyana.voitovich@osf.digital</a>&gt;; Muhammed, AmeenAli &lt;<a hre=
+f=3D"mailto:AmeenAli.Muhammed@kcc.com">AmeenAli.Muhammed@kcc.com</a>&gt;; D=
+oan, Audrey &lt;<a href=3D"mailto:Audrey.Deemer@kcc.com">Audrey.Deemer@kcc.=
+com</a>&gt;;
+ Austin, Glen &lt;<a href=3D"mailto:glen.austin@kcc.com">glen.austin@kcc.co=
+m</a>&gt;; Morais Vieira de, Rodrigo &lt;<a href=3D"mailto:rodrigo.morais1@=
+kcc.com">rodrigo.morais1@kcc.com</a>&gt;<br>
+<b>Cc:</b> Marciana Cojocaru &lt;<a href=3D"mailto:marciana.cojocaru@osf.di=
+gital">marciana.cojocaru@osf.digital</a>&gt;; Liliana Pantoja &lt;<a href=
+=3D"mailto:liliana.pantoja@osf.digital">liliana.pantoja@osf.digital</a>&gt;=
+; Moncada Ayala, Gabriel F &lt;<a href=3D"mailto:gabriel.f.moncada@kcc.com"=
+>gabriel.f.moncada@kcc.com</a>&gt;<br>
+<b>Subject:</b> RE: MaisAbracos_BR - New GTM client side scripts affecting =
+SOR <o:p>
+</o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">+ Gabriel<o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal"><a href=3D"mailto:tetyana.voitovich@osf.digital" id=
+=3D"OWAAM9B2256DEF0DA472894BBF95C94B193C5"><span style=3D"text-decoration:n=
+one">@Tetyana Voitovich</span></a>,
+<o:p></o:p></p>
+<p class=3D"MsoNormal">Have you confirmed that this is not happening in pro=
+duction?<o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal"><a href=3D"mailto:AmeenAli.Muhammed@kcc.com" id=3D"O=
+WAAM1D8EE749B32643BDAA735018713F3CE1"><span style=3D"text-decoration:none">=
+@Muhammed, AmeenAli</span></a> have you been testing something in MA that m=
+ay be causing this conflict? Please, help
+ us troubleshoot if this is a change implemented by any agency.<o:p></o:p><=
+/p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">Regards,<o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:#2F5496">Victoria Pacialeo</span></b><o:p></o=
+:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif;color:gray">ITS Product Owner eCommerce</span><o:p></o:=
+p></p>
+<p class=3D"MsoNormal" style=3D"background:white"><span lang=3D"ES-AR" styl=
+e=3D"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#7F7F7F=
+;border:none windowtext 1.0pt;padding:0in">E-mail:
+<a href=3D"mailto:maria.victoria@kcc.com">maria.victoria@kcc.com</a> </span=
+><o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#1F497D"><img =
+border=3D"0" width=3D"127" height=3D"25" id=3D"x_Imagen_x0020_16" src=3D"ci=
+d:image001.png@01D7B3CA.D71F2FF0" alt=3D"cid:image001.png@01D7B3CA.D71F2FF0=
+"></span><o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"msipfooterd86eec25" style=3D"margin:0in;margin-bottom:.0001pt">=
+<span style=3D"font-size:10.0pt;color:black">K-C Internal Only</span><o:p><=
+/o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span lang=3D"ES">De:</span></b><span lang=3D"ES"=
+> Tetyana Voitovich &lt;<a href=3D"mailto:tetyana.voitovich@osf.digital">te=
+tyana.voitovich@osf.digital</a>&gt;
+<br>
+<b>Enviado el:</b> Tuesday, September 21, 2021 8:24 PM<br>
+<b>Para:</b> Muhammed, AmeenAli &lt;<a href=3D"mailto:AmeenAli.Muhammed@kcc=
+.com">AmeenAli.Muhammed@kcc.com</a>&gt;; Doan, Audrey &lt;<a href=3D"mailto=
+:Audrey.Deemer@kcc.com">Audrey.Deemer@kcc.com</a>&gt;; Austin, Glen &lt;<a =
+href=3D"mailto:glen.austin@kcc.com">glen.austin@kcc.com</a>&gt;;
+ Morais Vieira de, Rodrigo &lt;<a href=3D"mailto:rodrigo.morais1@kcc.com">r=
+odrigo.morais1@kcc.com</a>&gt;; Pacialeo, Victoria &lt;<a href=3D"mailto:ma=
+ria.victoria@kcc.com">maria.victoria@kcc.com</a>&gt;<br>
+<b>CC:</b> Marciana Cojocaru &lt;<a href=3D"mailto:marciana.cojocaru@osf.di=
+gital">marciana.cojocaru@osf.digital</a>&gt;; Liliana Pantoja &lt;<a href=
+=3D"mailto:liliana.pantoja@osf.digital">liliana.pantoja@osf.digital</a>&gt;=
+<br>
+<b>Asunto:</b> MaisAbracos_BR - New GTM client side scripts affecting SOR <=
+/span>
+<o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<div style=3D"border:solid #9C6500 1.0pt;padding:2.0pt 2.0pt 2.0pt 2.0pt">
+<p class=3D"MsoNormal" style=3D"line-height:12.0pt;background:#FFEB9C"><b><=
+span style=3D"font-size:10.0pt;color:#9C6500">CAUTION:</span></b><span styl=
+e=3D"font-size:10.0pt;color:black"> This email originated from outside the =
+organization.</span><o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal">Hello there,<o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">We saw a problem with SOR for BR appearing at both S=
+TG and DEV &#8211; when GTM is enabled products subscription info is not ad=
+ded to cart along with product even though customer selects subscription in=
+terval, the controller SmartOrderRefillController-UpdateCartProductRefillIn=
+formation
+ is simply not called. You can check it on this product for example <a href=
+=3D"https://urldefense.com/v3/__https:/can01.safelinks.protection.outlook.c=
+om/?url=3Dhttps*3A*2F*2Furldefense.com*2Fv3*2F__https*3A*2Fstaging-na01-kim=
+berlyclark.demandware.net*2Fs*2FMaisAbracos_BR*2Fprodutos*2Fkits*2F4-fralda=
+s-tripla-protecao-hiper-m*2FFral-TP-KIT-M-4.html__*3B!!O6qgkg!hANcTsbQbCCaz=
+o4vCINfn5wxV8xt_mMcwSgynfHlgEHe-2vqc3uqTFtSWoHUF1sDgA*24&amp;data=3D04*7C01=
+*7Ctetyana.voitovich*40osf.digital*7Cc89a3e4c29084c2da9dd08d97dc53a67*7Cc1e=
+1ed72f1a440499e464c91471e0e87*7C1*7C0*7C637679108314111445*7CUnknown*7CTWFp=
+bGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0*3D*=
+7C1000&amp;sdata=3DYNjRKXv7qCcfgA9rEMRIkGv1RDHRS*2F8Fpw5ZDQ*2FnsLg*3D&amp;r=
+eserved=3D0__;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUl!!O6qgkg!jz6oFFbIuc4i=
+qtyY-vtM6J3FPb-XoDi_o_F52SD-jHAHTXNwlpkdmomjl8BCEJAonZA$">
+https://staging-na01-kimberlyclark.demandware.net/s/MaisAbracos_BR/produtos=
+/kits/4-fraldas-tripla-protecao-hiper-m/Fral-TP-KIT-M-4.html</a><o:p></o:p>=
+</p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">When GTM is enabled, there are some odd alerts appea=
+ring like this<o:p></o:p></p>
+<p class=3D"MsoNormal"><img border=3D"0" width=3D"464" height=3D"166" id=3D=
+"Picture_x0020_2" src=3D"cid:image003.png@01D7B3CA.D71F2FF0" alt=3D"cid:ima=
+ge003.png@01D7B3CA.D71F2FF0"><o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">I believe the script causing the alerts causes the S=
+OR issue as well.<o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">Can someone please look into it?<o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">Thanks,<o:p></o:p></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"left" width=3D"0" style=3D"width:6.25in;border-collapse:col=
+lapse">
+<tbody>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center;line-hei=
+ght:105%;mso-element:frame;mso-element-frame-hspace:1.5pt;mso-element-wrap:=
+around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:=
+column;mso-height-rule:exactly">
+&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"line-height:105%;mso-element:frame;mso-elem=
+ent-frame-hspace:1.5pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<b><span style=3D"font-size:12.0pt;line-height:105%;font-family:&quot;Arial=
+&quot;,sans-serif;color:#111054">Tetyana Voitovich</span></b><o:p></o:p></p=
+>
+</td>
+</tr>
+<tr style=3D"height:22.5pt">
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;height:22.5pt"></td>
+</tr>
+<tr style=3D"height:26.25pt">
+<td style=3D"padding:0in 0in 0in 0in;height:26.25pt">
+<p class=3D"MsoNormal" style=3D"line-height:105%;mso-element:frame;mso-elem=
+ent-frame-hspace:1.5pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"font-size:10.5pt;line-height:105%;font-family:&quot;Arial&qu=
+ot;,sans-serif;color:#D1D1D1">A Commerce and Digital Cloud Transformation C=
+ompany</span><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0in 0in 0in 0in">
+<p class=3D"MsoNormal" style=3D"line-height:105%;mso-element:frame;mso-elem=
+ent-frame-hspace:1.5pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly">
+<a href=3D"https://urldefense.com/v3/__https:/can01.safelinks.protection.ou=
+tlook.com/?url=3Dhttps*3A*2F*2Furldefense.com*2Fv3*2F__https*3A*2Fcan01.saf=
+elinks.protection.outlook.com*2F*3Furl*3Dhttps*3A*2F*2Fosf.digital*2F*3Futm=
+_source*3Dsignature*26utm_medium*3Demail*26utm_campaign*3Dlogo*26utm_term*3=
+Dimage*26utm_content*3Den-global*26data*3D02*7C01*7C*7Cf41f0dfd9aae451d9678=
+08d7d1f42238*7Cc1e1ed72f1a440499e464c91471e0e87*7C1*7C0*7C63720871877769247=
+3*26sdata*3DiQOlXBIP9pncmYMuEFcr8X9iWKzCAk1ujgyLOGNGkE4*3D*26reserved*3D0__=
+*3BJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!O6qgkg!hANcTsbQbCCazo4vCINfn5wxV8xt_mMcw=
+SgynfHlgEHe-2vqc3uqTFtSWoGL9NAq3g*24&amp;data=3D04*7C01*7Ctetyana.voitovich=
+*40osf.digital*7Cc89a3e4c29084c2da9dd08d97dc53a67*7Cc1e1ed72f1a440499e464c9=
+1471e0e87*7C1*7C0*7C637679108314121440*7CUnknown*7CTWFpbGZsb3d8eyJWIjoiMC4w=
+LjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0*3D*7C1000&amp;sdata=3DK=
+l9F*2FWVxSL9LXo9doVMuoHcsRt4YOnF5o7EjxIw4HM8*3D&amp;reserved=3D0__;JSUlJSUl=
+JSUlJSoqKioqKioqKioqKioqJSUqKioqKioqJSUqJSUlJSUlJSUlJSUlJSUlJSUl!!O6qgkg!jz=
+6oFFbIuc4iqtyY-vtM6J3FPb-XoDi_o_F52SD-jHAHTXNwlpkdmomjl8BCZVdQN3w$" target=
+=3D"_blank"><span style=3D"color:blue;text-decoration:none"><img border=3D"=
+0" width=3D"245" height=3D"33" id=3D"Picture_x0020_1" src=3D"cid:image004.p=
+ng@01D7B3CA.D71F2FF0" alt=3D"OSF Logo"></span></a><o:p></o:p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">CONFIDENTIALITY: This e-mail and any attachment may =
+contain confidential and/or privileged information intended for the exclusi=
+ve use of the recipient(s). Unauthorized copy, use, distribution or disclos=
+ure of any information contained in
+ this message or of its attachments is strictly prohibited. If you are not =
+the aimed person or if you received this message in error, please notify th=
+e sender immediately and delete this message, all attachments and backups t=
+hereof.
+<o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal"><br>
+CONFIDENTIALIT=C9 : Ce courriel et toute pi=E8ce jointe peuvent contenir de=
+s informations confidentielles et/ou privil=E9gi=E9es destin=E9es =E0 l'usa=
+ge exclusif du ou des destinataires. La copie, l'utilisation, la distributi=
+on ou la divulgation non autoris=E9e de toute
+ information contenue dans ce message ou dans ses pi=E8ces jointes est stri=
+ctement interdite. Si vous n'=EAtes pas la personne vis=E9e ou si vous avez=
+ re=E7u ce message par erreur, veuillez en informer imm=E9diatement l'exp=
+=E9diteur et supprimer ce message, toutes les
+ pi=E8ces jointes et leurs sauvegardes. <o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif">CONFIDENTIALITY: This e-mail and any attachment =
+may contain confidential and/or privileged information intended for the exc=
+lusive use of the recipient(s). Unauthorized copy,
+ use, distribution or disclosure of any information contained in this messa=
+ge or of its attachments is strictly prohibited. If you are not the aimed p=
+erson or if you received this message in error, please notify the sender im=
+mediately and delete this message,
+ all attachments and backups thereof. <o:p></o:p></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif"><br>
+CONFIDENTIALIT=C9 : Ce courriel et toute pi=E8ce jointe peuvent contenir de=
+s informations confidentielles et/ou privil=E9gi=E9es destin=E9es =E0 l'usa=
+ge exclusif du ou des destinataires. La copie, l'utilisation, la distributi=
+on ou la divulgation non autoris=E9e de toute
+ information contenue dans ce message ou dans ses pi=E8ces jointes est stri=
+ctement interdite. Si vous n'=EAtes pas la personne vis=E9e ou si vous avez=
+ re=E7u ce message par erreur, veuillez en informer imm=E9diatement l'exp=
+=E9diteur et supprimer ce message, toutes les
+ pi=E8ces jointes et leurs sauvegardes. <o:p></o:p></span></p>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_CY4PR0601MB3586AE22EC693BF3E2944BCDE6A79CY4PR0601MB3586_--
+
+--_007_CY4PR0601MB3586AE22EC693BF3E2944BCDE6A79CY4PR0601MB3586_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=4024;
+	creation-date="Mon, 27 Sep 2021 12:39:09 GMT";
+	modification-date="Mon, 27 Sep 2021 12:39:09 GMT"
+Content-ID: <image001.png@01D7B3CA.D71F2FF0>
+Content-Transfer-Encoding: base64
+
+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
+
+--_007_CY4PR0601MB3586AE22EC693BF3E2944BCDE6A79CY4PR0601MB3586_
+Content-Type: image/jpeg; name="image002.jpg"
+Content-Description: image002.jpg
+Content-Disposition: inline; filename="image002.jpg"; size=12548;
+	creation-date="Mon, 27 Sep 2021 12:39:09 GMT";
+	modification-date="Mon, 27 Sep 2021 12:39:09 GMT"
+Content-ID: <image002.jpg@01D7B3CA.D71F2FF0>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf
+IiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7
+Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAD2AewDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD0a0tL
+Y2cBNtCSYlyTGOeBVC91bS7FbmV9OZ7W0O24ukhTZGe455bHfANatn/x5W//AFyX+QrOfTNQjNxB
+Z3VvHa3EjSHzYi8kJbltvY85Iz0z3qZSd3qaqKstC3ZrYXtnDdw20XlToJE3RAHaRkcYqLUZdO02
+FZJrRJHdtsUMMAaSVvRR345rQVdiqoyQoxz3rP1CwuZdRs9Qsvswntkkj/fhsFXA6EfSp5n3Hyq2
+xLaDTr61jubaK3kikGVYRj8QeOCO4ouYbaKMbbWDcx4/dimaRp76fbzibyjPcXEk8piBC5Y5788D
+ip7yJnQMoyV6j2o5n3HyrsZFy1nbgPNHGAxwP3Y/HtUn2eD/AJ4Rf98CsvxB4fXXRBm6MBh3dFzn
+P/6q1YoxFbpDncEjCZPfAxT5n3J5V2Id2n+Z5ebbdtLY+XoDgn86c62iDmOAnbuCgLkj1FUhoxVF
+VbkKQhT/AFfAXcG2jnOOMdc1X/sSQGO2V8wqvzTMo3fcK4HOe/T9aOZ9w5V2NUpZgMStuNv3vu/L
+9fSlMVqqeYyQBP7xC4/OqEukiLbNDiSRGLBNi4cli3OSM4yR+tS2+mItlaRTEF4dhYfeU7QeMdB1
+o5n3DlXYsSfYolZmSH5QCQqAnnpwOeaZFJYTSJFGsTO6eYq+Xg4zj09e1VE0MxyxSi8JaBQI8p0x
+txnnkfL09+tW4rBY/LzIzbI3Q443FyCT7cj9aOZ9w5V2Hf6JudfJj3I4RhsHXj/EUSNYxxPIRAVQ
+FjtCk4HXiq76PG1zLMsxAlKEqw3Y24xgnp059fwpjaFCYDGkgQlApYRjsmz/AOvRzPuHKuxeCWhC
+kLbkN90gLz9KYhsZJJI0WAmMAthVxg+9VDokbzCaSRWYliyhNqgnGCoB4PA9aRtHVZIFi+4NiyEA
+KNiqQRj/AGuKOZ9w5V2LhaxWYRFYN20sflXAxjOT26ihzZI6IywbnPACj0JyfbA61WOkt5aoLhV8
+tWVSIsZBIPzc8njGeOtRr4fiFukXnncjq2/YMnau0A+o9qOZ9w5V2L0gs4mjV44Q0rBUG0ZJNLts
+sA4tsHp93mq1zpRu5WeS4Ub9pbbHyMAgbTngYao4tDgRUDFCVxnCcHDK2eSf7uKOZ9w5V2LwS0P8
+Nvyu7ovT1+lMlaxijWRhBtcgKQFO7Jxx+dUn0ESON10SiqVC7OgOeOvTmpH0ZGmZhKoR5N7IYwcD
+fuwp7eho5n3DlXYuNHaqCWSAAdSQvFBS0BIK24IxnIXv0rPXQwisFumJdQCWTrzz+YCj/gNA0CEQ
+RxmQOUILMyffGwLg4PoOPTNHM+4cq7GiYrUPs8uDeei4XP5UzNiX8sfZy2wyYAU/KOp+lV7nSUuz
+Izy7WfaNyJggBWXGfo36UkWkLCV2OgyhSQKhG4FgTjkkHjFHM+4cq7FnFn5fmeXDt4/gGRnpxTUk
+sHWBlWEi4BMfyDnAyfpSLZFbhn8weWzl/LC9Gxwf1P6VGulKoG2dlKjCnA+XKkHH1PNHM+4cq7Fj
+Za5/1cOMAhsLg596aWsgWBSIbHEbfIOCelV00kJgicbgcg7fu8k8c++Oaf8A2YFKss7Fshm8wblY
+hs9O3U/nRzPuHKuxYMdoOqQDjPIWgx2i53JANvXIUY+tVW0pTA8azBS+AzbOoAIx9Oc/hTxp5VAo
+lQ7WLDfGGzkYO7nn29KOZ9w5V2LIgtyxURQ7h1G0cVW+0aeVLCIHDYwIDk9egxyODz7U+C2a0dmi
+IdWAG0nb07k881AmkRhSry5Utuwg2568nnr83X2o5n3DlXYtbbPj5IcFQwJUYwehpfLtcZ2QdcdF
+6+lRCyY7XaRGkVwQSnykAYAx+Z+pqNdKXzWkkm8wsSeV9mGfr836Ucz7hyrsWAloSf3cGM4BIXB+
+lIgs5EZwkOFJDZUDHOOfSoTpcRBG4Y8vYBtHHyhc/pSnTVUq6yLvUk8oCGO4nkd+tHM+4cq7Fn7P
+AQD5MWD/ALAo+zwf88Iv++BRBEIIEiDZCDGfWpKOZ9x8q7Ef2eD/AJ4Rf98Cj7PB/wA8Iv8AvgVJ
+RS5n3DlXYj+zwf8APCL/AL4FH2eD/nhF/wB8CpKKOZ9w5V2I/s8H/PCL/vgUfZ4P+eEX/fAqSijm
+fcOVdiP7PB/zwi/74FH2eD/nhF/3wKkoo5n3DlXYj+zwf88Iv++BR9ng/wCeEX/fAqSijmfcOVdi
+P7PB/wA8Iv8AvgUfZ4P+eEX/AHwKkoo5n3DlXYj+zwf88Iv++BR9ng/54Rf98CpKKOZ9w5V2I/s8
+H/PCL/vgUfZ4P+eEX/fAqSijmfcOVdiP7PB/zwi/74FH2eD/AJ4Rf98CpKKOZ9w5V2I/s8H/ADwi
+/wC+BWZqcMS3CARIPk7KPU1r1lar/wAfKf7g/ma3oSfPqYV0lA6eztrhrG3InjAMS4Hl+w96m+y3
+H/PxH/36/wDr1JY/8g62/wCuKfyFT1DSuVGTsip9kuP+fiP/AL9f/Xo+y3H/AD8R/wDfr/69W6KV
+kPmZU+y3H/PxH/36/wDr0fZbj/n4j/79f/Xq3RRZBzMpmymJyZYSfXyf/r0n2GX/AJ6w/wDfn/69
+VfFM17Bo2dPmMVw0yIrAgdT6muOn1vVLfUBpcmr3D3RZVZ0dcIT0G0jLDnqDWMqsYy5Eru1/kYyr
+STskd39hl/56w/8Afn/69H2GX/nrD/35/wDr1neFZdSaG8i1O4M0sUwUNuBwMDpirK+IbYuLfyZv
+tpl8r7JgeYP9r02453dKuEozipR2ZcKjkrlj7DL/AM9Yf+/P/wBej7DL/wA9Yf8Avz/9erxFJwOv
+TvV2RfMyl9hl/wCesP8A35/+vR9hl/56w/8Afn/69Rw3itcoBd7pGch4iBtUe3H0781cnuEtwhkz
+h22jAz2J/pRZBzMr/YZf+esP/fn/AOvR9hl/56w/9+f/AK9C6krwtKkLkDb+tKNVtfl3bwSSB8uc
+/SiyDmYn2GX/AJ6w/wDfn/69H2GX/nrD/wB+f/r1I2oW6xeY+5BkqNy4yQcGk/tG2AOS4YMFK7eQ
+T2xRZBzMZ9hl/wCesP8A35/+vR9hl/56w/8Afn/69Pk1K1icxyOwYNtwEJpDqlqACWIB65XFFkHM
+xv2GX/nrD/35/wDr0fYZf+esP/fn/wCvUsV7DLL5S7g3TDLjB9PrViiyDmZS+wy/89Yf+/P/ANej
+7DL/AM9Yf+/P/wBertFFkHMyl9hl/wCesP8A35/+vR9hl/56w/8Afn/69XaKLIOZlL7DL/z1h/78
+/wD16PsMv/PWH/vz/wDXq7RRZBzMpfYZf+esP/fn/wCvR9hl/wCesP8A35/+vV2iiyDmZS+wy/8A
+PWH/AL8//Xo+wy/89Yf+/P8A9ertFFkHMyl9hl/56w/9+f8A69H2GX/nrD/35/8Ar1doosg5mUvs
+Mv8Az1h/78//AF6PsMv/AD1h/wC/P/16u0UWQczKX2GX/nrD/wB+f/r0fYZf+esP/fn/AOvV2iiy
+DmZS+wy/89Yf+/P/ANej7DL/AM9Yf+/P/wBertFFkHMyl9hl/wCesP8A35/+vR9hl/56w/8Afn/6
+9XaKLIOZlL7DL/z1h/78/wD16PsMv/PWH/vz/wDXq7RRZBzMpfYZf+esP/fn/wCvR9hl/wCesP8A
+35/+vV2iiyDmZS+wy/8APWH/AL8//Xo+wy/89Yf+/P8A9ertFFkHMyl9hl/56w/9+f8A69H2GX/n
+rD/35/8Ar1doosg5mUvsMv8Az1h/78//AF6PsMv/AD1h/wC/P/16u0UWQczKX2GX/nrD/wB+f/r0
+fYZf+esP/fn/AOvV2iiyDmZS+wy/89Yf+/P/ANej7DL/AM9Yf+/P/wBertFFkHMyl9hl/wCesP8A
+35/+vR9hl/56w/8Afn/69XaKLIOZlI2Ug6zQj/tj/wDXpv2Vv+e8H/fr/wCvV6NQ5Z2wcHAz2qN9
+Qt0ZlIO5M5AX0/zmiyDmZV+yt/z3g/79f/Xrn9fiKXsYMkR/dDkR47n3rqzfW25UBJZsYGw564rm
+PE91D/aiqJFBWIAgr3ya1pK0jGs3ynSWP/IOtv8Arin8hU9R6coOnWvH/LFP5CrWxfSs3uWtiGip
+ti+lGxfSgZDRU2xfSjYvpQBk67pX9t6Y1l53k5dW37d3T2rC/wCEHl+Vm1NWmQYSdrYGRB6Bs/8A
+167PYvpRsX0rOVKEndozlSjJ3Zh+HtC/sK3miNybgyybyxTHbFanlx+d53lr5m3bv2/Nj0z6VY2L
+6UbF9KtJJWRUYqKsiGkZVdSrLuB6g1PsX0o2L6UyiFlVk2MoK9NpHFJtXjj7vTjpU+xfSjYvpQBW
+MEJUoYkKnqNvBpotbcNuEEefXbVvYvpRsX0oArGCJiCY1OGLdO5GCf1potrcFSIIwV6EL0q3sX0o
+2L6UAVTBCzFjChYnJJXkmkFrbrjEEYx0+WrexfSjYvpQBWSGKPASNVAORhelPqbYvpRsX0oAhoqb
+YvpRsX0oAhoqbYvpRsX0oAhoqbYvpRsX0oAhoqbYvpRsX0oAhoqbYvpRsX0oAhoqbYvpRsX0oAho
+qbYvpRsX0oAhoqbYvpRsX0oAhoqbYvpRsX0oAhoqbYvpRsX0oAhoqbYvpRsX0oAhoqbYvpRsX0oA
+hoqbYvpRsX0oAhoqbYvpRsX0oAhoqbYvpRsX0oAhoqbYvpRsX0oAhoqbYvpRsX0oAhoqbYvpRsX0
+oAgVjExyMqT27U1has5YxZYnJJTvjH8qs7F9KPLX0oAqGO0LlzCNx6naa5rxJHb/ANoIVhHMQJ4x
+/E1dfsX0rlfFHy6lGAP+WI/9CatKfxGVX4TotN/5Btr/ANcV/kKtVV03/kG2v/XFf5CrVZvc0Wwt
+FFFAwooooASo3uoI5FjeVFkb7qFgCfoKe3Sucubvw/qHiI2Mjs19GnzFWZVwOcFgcZFJuxpCDk35
+HQyTxxRtJIwVFG5mPYVVXWdOaRIxeRF5ApRd3Lbun51Fb6Zp/wBmmihIkhmYMwEm4Dp0/Ks0+GzF
+mWAp5qSSPEDwPmdWAz2+7ijUqMaevMzoJJhGm7az4IGFHNC3ELHCyK3XofTrXOvoOqPJJI2oKxd1
+m+bOBIpyBj+7z+OBU+n+HzAl4t3KXE5KoVcjah5Y+xLZJou+wOFNL4jae6gjkWN5UV2+6pYAn6Cp
+Qc1zGrLoWiyW8k1vLNO7fuIImZy5HcDOOK37C6+2WUVyIpIvMGdkgwy+xFFxTp2ipK9izRRRTMgo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoqgda04LMxu41
+WD/WFsgLzjPvzxxQ2r2KXJt2ukWQMFwcjk44z07j86AL9FUH1mxjeNXuVHm52YUkNjg8gex/KlTV
+7KRY2S4XbLII4yyld7EZAGetAF6iiigAopD0qk+sWEf37yIHzGixn+MckfgKAL1FUZNWsoioe5jG
+5ioPJGQcHn2PGaYNd01ioW6DFjgKEYk++MdPfpQBo0VQ/tnT8sPtSDawUk5AyTgAHoeeOKe+q2Ub
+FXuo1IR3IJ/hQ4Y/QGgC5RVCTWLGJQz3UZDYxtyc5GQeO2Oc1LDf29w4SGZJCVLYU9gcE/nxQBao
+oooAKKiubmG0h864lWKPIXcxwMk4H6kVXXVbJ5HjW6iLxyeWy55DZxj65oAu0Vn/ANtafslc3car
+D/rGbIA52/iM8ZFOOr2QuDbm4QShthUgjnjgHp3H50AXa5PxV/yE4/8AriP/AEJq6iCeO4jEkTh0
+OcMOh5xXL+Kv+QnH/wBcR/6E1aU/iM6nwnRab/yDbX/riv8AIVaqrpv/ACDbX/riv8hVqs3uWtha
+KKKBhRRRQBW1CCa5sZYbe4NvK64SULkofXFee6z4ZuvD8LzW8kt1bLaTBmYDcsj4B9znrXpRGaQo
+D15qZRUjpw+JnQem3VHjNvOtkJms7kIU045NqWALHA+fPQ89q2vD+rXlpc3FzHc3b2lnZF7qO7fP
+70j5do64Jr0K50qxu7eW3ntY3imGJF2j5vrVO88LaPfNI8trhpY1icoxXcoIIHH0FZ+zae53yx9K
+pFxlHc4WLxlqg0S9ha9Wa7xHKk6AHy0b7w+q5qa+uY0tFtoNfvdUtDLHJfFCS0cRznDDsT1Fdy/h
+/SnuYbk2UfmQoY0IGBtPBBHQ/jSaRokGkxzpGFImlZzhAoAPRQB2FPkk92Q8XQWsYWe/T/L7vM8/
+t9LOpXFwdO0y7v8ATI5P9FZrkwsmR82CeSprsfCGi3mi2EyXjANNKXWFXLiEf3cnrXQCNVAAGAOg
+FOwKpQSdznr4yVWPJay+8BS0lLVnEFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAc+PCkJmdpbmR43Ylo1+Xdli2Cc9ie2KVPCsayOZLlpVeNkO5eTlQvJ78AH6
+1v0UAUX0xGS1RXKLbKVUAdcrt/rVD/hGEa3ihlu3It1xDsGza3HzHnk8D2rdooAQcAZ5PrS0UUAI
+ayP+EctPtjXZyZXd2YnoQwIIx079e+BWxRQBkjQLXy7SJgWjtYTEqZwG6ckd+nSq0HhaO1likguW
+3R9PMXf2APfpxwOgya36KAMP/hG1LoJbt5YIwFWErwV3ZwfX0zUa+E4lTm9uHkGQsjHJCnOVx0Od
+x5roKKAMWLw99kuXuLK8eB2JABQOqKQMqAe2Rkf4VdtdOjtLi5nTl7llZzjHIGP/AK9XaKACiiig
+CtqFjHqFqbeX7hZWYeuDnFUrXw/a2c8EsQz5Du6BuSNygHnqemc+9a1FAHPjwlA0rGW4domJLRr8
+u7kkZOc8Fj0xSp4VjDSmW6eQSxvGcqMncAMn8gfrW/RQBHFEsESRIAFRQoA9BXLeKv8AkJx/9cR/
+6E1dZXJ+Kv8AkJx/9cR/6E1aU/iM6nwnQ6cyjTrUbh/qU7+wq1vX+8PzrPsv+PC2/wCuKfyFTVm9
+y1si1vX+8Pzo3r/eH51VooGWt6/3h+dG9f7w/OqtFAFreuQNwyenNLuAqn/y2i/3qW5jujcboHCp
+s6HkE80AW80ZrNA1FSWUhiwx85HB9eO1M2asGYhwV5Kg4J/OgDVopsRcoPMxuxzin0AFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFACZFIXVRknAFNfrUU/wDx7v8ASgCfev8AeH50GRAMlgB9aqr0H0qtdOS+zsOv
+uaANH7RD/wA9U/Oj7RD/AM9U/OseigDY+0Q/89U/Oj7RD/z1T86x6KANj7RD/wA9U/Oj7RD/AM9U
+/Osej8KANf7RD/z1T865bxQ6NqUZVgR5I6H/AGmrSxWDryg3seR/yyH8zWtJXkZVnaJ1Fl/x4W3/
+AFxT+QqaobL/AI8Lb/rin8hU1Zvc0jsgooopDCiiigBP+W0X+9UlxqNnazLDPcJHI4yqnvUf/LaL
+/ep15ZfapI28wrsV1xjOdy4oAb/bGm+V5n2yLZnrn/PqKe2o2aQee1wnlbtu4HIz6VlxeGYozHi5
+lIRgc5O44xxuzntx7U99CPlG3inWOATCaNNh+UjjGQelAGg+q2EbBZLqNCU3jccfL6/oab/a+n4j
+P2uLEhwvPvj8Kq3GhxXnmNPIS7xLGMZCqRn5sZ5PPeol0AwxyxRXRVJ1KSmRN7MuSepPXkjP0oAv
+f21pvP8ApkfyttP19KWTWNOiLrJdxqY/vZPSq0+j+YyvHPtKzmYblJHKhccEelKulzC3mtTdD7PI
+rgKI/mBY5JznnBJoAstq+nrEsjXcYRjgEn2z/KpFv7Vs7biM4JU4boQMkfgOaozaS5upbmG5CPKp
+Rt0YYbSAPXrxUUPh2GF1eOd0wsisMD5twwCfcDvQBoxanYzJvjuo2UAknd0AGT+nNNfVtPjID3cQ
+3IJBluqnoazzoBlwZrxi2wRMUQLlAMY+vXn3pP8AhGoDDNE07uGXbFu6RAZxxnkjOM0AaKarYSSJ
+Gl0heT7q55NSR39rMUWK4Ry4ZlCtncAcEj6His6PQ9t7DdS3BZotuFAO0gZ6gk5PPB7YpbTw/b2c
+4njdxJsZGI4+96f3eeeO9AF+XULSCVYpp0jdhuCsccf5Bp9vd291EJYJVkQnGRWZeaKbqZJEuWi2
+Bc5BYsVztJ5wcZ7ikbRZGtliW72v84eTYTv3YyTk/e4HNAGv50e8JuBY5wB7dafWVYaLHZXaTRyn
+Cx7SoXAY/wB4+9atABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQBG3Wop/wDUP9KlbrUU/wDqH+lMQxeg+lVLkYlJ7GrQ6D6UkkayLtb8D6UhlGipzavn
+hlI96T7LJ6r+dAENFTfZZPVfzo+yyeq/nQBCan8xd2fMIXGAoH3aT7LJ6r+dH2WT1X86AHeagTax
+354Jx1Fc54ictqCkMceXx/30a6H7LJ6r+dc94hidL6Mcf6ofzNa0fiMa3wnS2X/IPtv+uKfyFTVD
+Zf8AHhbf9cU/kKmrN7msdkFFFFIYUUUUAJ/y2i/3quVT/wCW0X+9VqT7jfQ0AZ174i0rT8farpY8
+ttHB5PtVZvGegI2xtQUNjONpzj8q43xDFrMl2v2FZDGIDuwOM7x098fpULXfiVowxtBGEIVv3SKW
+b8f4fenzU+ZxOilhp1KSqc0de7tb1PQIPE2j3MBnhvEeMNtLAHr6VYh1axuHVY5wxf7p7H6V5kdY
+11ii+SFUP85EKjuM4HoOea3fD819c/Pdphln2j5AoIHcDrWkVCbsrmWIo1aEeaTTXk7ne1WnvI4J
+ljcHLLnParFRy20M7BpE3EdMmsiCOO/tZZPKSUb/AO6Rim2uo292SIywwATuGMZJGPrx/Knx2NvE
+comDjGcmnrbQrjbGoAGMYoArDU4S5RVckMFOMdzjP+eak/tC1x/rc9c4B4Hr9PenfYbbzfN8vD5z
+uBOaaunWqqAI+nfJyaAJ0kWRQy8gjI4p9MjjSJFRF2qowAO1PoAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAjbrUU/wDqH+lSt1qKf/UP
+9KYiMdB9KWkHQfSlpDCiiigAooooAKKKKACua8S/8hCL/riP/Qmrpa5rxL/yEIv+uI/9CatKXxGN
+b4Tfsv8AkH23/XFP5Cpqhsv+PC2/64p/IVNUPc1jsgooopDCiiigBP8AltF/vVak+430NVf+W0X+
+9VqT7jfQ0WuBxMzW8l+0Mgn3NyX6L9B68fyq08P7lI1G5U4+bnNUGTz70XYkIkQGNdw+6M9qlupr
+qKBdmHOPmbPNZYfLqNCq6ihts73/AFOWrip1oKHN+n6GXrpvNM0+KVI0VpZdvEKkjgnoe3SqOia/
+qj6xZQSOPKlnVHX7MqA59wa078/2lZWMc8XltFcbpHkUuAAOM45P/wBektrCzjuLHyUheZJ423JE
+4YkHk5PHSvVhK0PeWphUV5+69D0gUtIKWvPPRCiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAI261FP/AKh/pUrdain/
+ANQ/0piIx0H0paQdB9KWkMKKKKACiiigAooooAK5rxL/AMhCL/riP/Qmrpa5rxL/AMhCL/riP/Qm
+rSl8RjW+E37L/kH23/XFP5Cpqhsv+PC2/wCuKfyFTVD3NY7IKKKKQwooooAT/ltF/vVcIz9Kp/8A
+LaL/AHqu0AQ/Zof+eMf/AHyKPs0P/PGP/vgVNRQKyIfs0P8Azxj/AO+BS/Z48/6pP++RUtFFwsgo
+oooGFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAQSyxxsgeRVLnagY43H0HqaimmiZZIRIvmhNxTPzAHocelUPE9tJe
+6UbWGw+1zTOqx5bYIW7Sluq7evHPbvVHw9p13pcd9BqCG4u2Id9Tzn7WO2f7pXpt6dx1pgbg6D6U
+tIOg+lLSAKKKKACiiigAooooAK5rxL/yEIv+uI/9CaulrmvEv/IQi/64j/0Jq0pfEY1vhN+y/wCQ
+fbf9cU/kKmqGy/48Lb/rin8hU1Q9zWOyCiiikMKKKKAE/wCW0X+9VvaP8mqn/LaL/eq7QA3aP8mj
+aP8AJp1FADdo/wAmjaP8mnUUAN2j/Jo2j/Jp1Vri8it5o4nbBkyR7YoAn2j/ACaNo/yarHUbbdsE
+mW4yAKYNVtTkiT5QcFscfnQBc2j/ACaNo/yabBPHcRrJEwZG6EVJQA3aP8mjaP8AJp1FADdo/wAm
+jaP8mnUUAN2j/Jo2j/Jp1FADdo/yaNo/yadRQAz5f8mlCqf/ANdZ/wBhuyW/048k44PHP1rRXpQA
+m0f5NG0f5NOooAbtH+TRtH+TTqKAG7R/k0bR/k06igBj7I1LOwVR1JOAKRWjdQyMGB7g5pZUEkTx
+k4DAjNUJtLV/mSV0JbcwUkbunp6YoAv4X3pcL71ntpm+eSR53YOchRkAfr+FINNkUHbdMMjB45x+
+fX0oA0cD3o2j/Jqra2S205kVsgoFwf8AGrlADdo/yaQhR60+qdzaGSbzY32PtC55oAs/LnHf60u0
+f5NUoLKeO4V3ui6IOFOeevNXh0oATaP8mjaP8mnUUAN2j/Jo2j/Jp1FADdo/yaNo/wAmnUUARtwa
+in/1D/SpW61FP/qH+lMRGOg+lLSDoPpS0hhRRRQAUUUUAFFFFABXNeJf+QhF/wBcR/6E1dLXNeJf
++QhF/wBcR/6E1aUviMa3wm/Zf8g+2/64p/IVNUNl/wAeFt/1xT+Qqaoe5rHZBRRRSGFFFFACf8to
+v96rtUv+W0X+9V2gAooooAKKKKACql1JapKqzpkuPvFeAB79qt1DPbpPjdnI6EHBFA1a+pV8rTV5
+xEMqCMt/DRDBp8pKxIjHALDPr0Jpx0q1Zw21gwUAEHnjv9amgtIrfPl5GQAQTnpQN8ttCSKMRKEU
+YUDjmpKKKCQooooAKKKKACiiigAooooAwz4otBv/AHT5V9vLqAeSOpPH3Tweaux6nHPp7XkMUjKM
+/IQFJ/Pp+NNOg6a2d9vvBzw7EgZznHp1NP8A7Hs/JlhIkMcpyymViM5znr60AUR4ntSSPs85Ij3k
+AAngZPGemO/SpbrX7W0u3tnjkZ1XPGO4yO/T36VOdGsmZmdHcsCDukY5JGCevXHGaVtGsmkaRlkL
+Nyf3jdcYz1644+lAEtjex30AmjBXkqVJBwQcHkcH61aqG1tIbOFYoV2oueM55JyTU1ABRRRQAVE9
+wiTxwtu3SAleOOPepajeFHkSRs7kzjn1oAkooooAhubq3s4hLcyrEhYLuY4GScCk+2W5uzaCVTOE
+8wxg8hc4zT54IrmF4Zo1kjcbWRhkMPQ1V07SLPSomjtVYFzlndyzN6Ak84A4HpQBerKvddtrK+a1
+kRyypuJXHoT0znop5rVqlcaTZ3c5mmjLMwGRvIBxnBx+JoAi0/WINSLLGjKUXcckEfgQSD+FVpPE
+ttE5jkgmRg+3BK/49efu9avRaTZ28wlhRoiM8I5C4JzjHTGST+NRDQdPEax+W+xcgL5jYweo69DQ
+BFceILaC3ilkilUSyMgVsAjacHv+nWp7DVob+WSONWVowG+YjlSSAeOnIPB5pX0axkOWjfvwJGAw
+Tlh16HvU1tp9taSSSQoQ8p+ZixJ+nPbmgCzRRRQAUUUUARt1qKf/AFD/AEqVutRT/wCof6UxEY6D
+6UtIOg+lLSGFFFFABRRRQAUUUUAFc14l/wCQhF/1xH/oTV0tc14l/wCQhF/1xH/oTVpS+IxrfCb9
+l/yD7b/rin8hU1Q2X/Hhbf8AXFP5Cpqh7msdkFFFFIYUUUUAJ/y2i/3quVT/AOW0X+9UVxqSwXQt
+2ljWRvuox5b6Vx4vGU8LBTqXt5alRi5PQ0qKz/tsvoppF1BpEDJtYHuK85Z/grXu/uL9lI0DSVmy
+6p5KM8kkaKvUk4xSHUCUV/NTa5AUjoc9Kh8QYS2if3B7KRp0Vm/aJf8AnoaT7XIJNu/LYzg+lYx4
+jwzduVj9jI1KKz11EltvyFh15qeC5aVypUDAr0KGb4StNU4vV+RLpySuWqKjjmSQ/I6txng9vX9K
+kr1jMKKKKACikY7RkkADqTQDkUALRTQckjPTrQzBeSQB7mgB1FNDAnGeetOoAKKRmCjJIA96KAFo
+pAwPcUhYAgZGT096AHUUUUAFFNDbvukHnBxTRMhfYHBb+7nmgB5GRg03y19P1o3jn5hx156U4UAN
+8tfT9aPLX0/Wn0lADfLX0/Wjy19P1qNLqJ5BGsqMzDIAPUVMKAEC7enSnUhOO+KY0qKoZnUKTgHP
+U+lAElFMEilygYbgMkelPoAKKKKACiiigAooooAjbrUU/wDqH+lSt1qKf/UP9KYiMdB9KWkHQfSl
+pDCiiigAooooAKKKKACua8S/8hCL/riP/Qmrpa5rxL/yEIv+uI/9CatKXxGNb4Tfsv8AkH23/XFP
+5Cpqhsv+PC2/64p/IVNUPc1jsgooopDCiiigBP8AltF/vVR1HQTf3ck7SYDRBFXJABBJBPr1q9/y
+2i/3qnkuY45AjSKGxnBPaufEYaGIiozKi2tjnT4VmVyY54wg6KQfmHHytzyvH60yPwreRxLCLuLy
+1O/btOCf7p5+7x0rpRPHyfMTAx39aBcRMWVZFJQ4YZ6VwvKcO+5ftJGAvhmVI5lD24MrI/3GG0j0
+Oc/SmN4Vu32K99HIiNvw8R+c8Zzg9OP1ro/OjJHzryMjmpBVxyvCroTzyOYTwjMhJN4kg4yjoSrf
+XnOB2HtTZ/Cs4MQhmicbmMvmA4Oc4OM84yB+FdVSVcstwzVuWwc8jlB4UuEY7Z42GSSrg4kJ/vc8
+1c03w9LZXCymfef42JOX5BGee3P51v0VnRyylSqKcW7oHNtGe+lfO7RyBd7ljx93OOnPUYP5mmtp
+k7QPF9qB3bQCV7DPv15rTor1CDMTSnSSJjcM2xiWyT8xznP17U2PTLgAv5yo+W4GSDnPJ564NatF
+AGWNIYReX5oOQQzMCTznkc9ecUNpEhddk+xFzhQDxkdM56VqUUAZQ0l1QnzizquExkAHj/D9ajh0
+mWS1WOfarqzcnnO5cE+xrZooAzG0pg4Mc2xQwKrgkLSDS5XmaSSUKPMZgFzzk8ZOe3atSigDK/si
+QrgzrjuNpx25HPXinjTZt4Z5w4GAFYHAA79fvVpUUAZn9k4ihjV0HlIUB2nkEg+vtz9aadIl4Pnr
+uA4JUnHBGBz93mtWigDMg064iLKZ8r5W1SefmPfHpjFNXR2WMj7S289GA6Dnjr05/StWigDM/suU
+QhI7nymDM2UBA5ORxnsacmlsju3m53Kygc8Z960aKAMoaOyRkic+acZYDGQB0/ShdKmNmI2n2sSp
+YLnaSBjnn8fwrVooAzG0mQkYunwrfKCTwP8AHOTmnw6e0M6YctGEO/J++3Y/kT+laFFAGfBpjQbF
+WVfLQ7gNuDnbt/Koxo5RQEmIOADnJ3ccg89CRmtSigDLbRy8bK0oJb1zgD+7jPSj+zGhZGjIb5iX
+XOOuefwzWpSUAUbOzlt5k3sGWOMqGAxuyc/pj9av0mKWgAooooAKKKKACiiigCNutRT/AOof6VK3
+Wop/9Q/0piIx0H0paQdB9KWkMKKKKACiiigAooooAK5rxL/yEIv+uI/9CaulrmvEv/IQi/64j/0J
+q0pfEY1vhN+y/wCQfbf9cU/kKmqGy/48Lb/rin8hU1Q9zWOyCiiikMKKKKAE/wCW0X+9S3GnxXEp
+lZmDMmw4PGM5pP8AlrGewarW9P76/nQNNrYqDTY0iMaErkqSevQ5ol0uGZi0hcnduHzdO/FW96f3
+x+dHmJ/fX86Q+Z3uUG0a22Mo3/Mcn5uavxoI4wg6AYFHmJ/fX86PMT++v50xNt7j6KZ5if31/Ojz
+E/vr+dAh9FM8xP76/nR5if31/OgB9FM8xP76/nR5if31/OgB9FM8xP76/nR5if31/OgB9FM8xP76
+/nR5if31/OgB9FM8xP76/nR5if31/OgB9FM8xP76/nR5if31/OgB9FM8xP76/nR5if31/OgB9FM8
+xP76/nR5if31/OgB9FM8xP76/nR5if31/OgB9FM8xP76/nR5if31/OgB9FM8xP76/nR5if31/OgB
+9FM8xP76/nR5if31/OgB9FM8xP76/nR5if31/OgB9FM8xP76/nR5if31/OgB9FM8xP76/nR5if31
+/OgB9FM8xP76/nR5if31/OgB9FM8xP76/nR5if31/OgB9FM8xP76/nR5if31/OgBG61FP/qH+lSM
+6E/fX86jmKmFwGBOOmaAIx0H0paB0FFABRRRQAUUUUAFFFFABXNeJf8AkIRf9cR/6E1dLXNeJf8A
+kIRf9cR/6E1a0/iMa3wlu18QWcdpDG0c+VjVThR2H1qX/hI7L/nnP/3yv+NFFVyq5Kk7B/wkdl/z
+zn/75X/Gj/hI7L/nnP8A98r/AI0UUcqHzMP+Ejsv+ec//fK/40f8JHZf885/++V/xoopcqDmYHxF
+YnrHOf8AgK/403+3tP8A+eM3/fC/40UUcqHzMP7f0/8A54zf98L/AI0f2/p//PGb/vhf8aKKOVBz
+MP7f0/8A54zf98L/AI0f2/p//PGb/vhf8aKKOVBzMP7f0/8A54zf98L/AI0f2/p//PGb/vhf8aKK
+OVBzMP7f0/8A54zf98L/AI0f2/p//PGb/vhf8aKKOVBzMP7f0/8A54zf98L/AI0f2/p//PGb/vhf
+8aKKOVBzMP7f0/8A54zf98L/AI0f2/p//PGb/vhf8aKKOVBzMP7f0/8A54zf98L/AI0f2/p//PGb
+/vhf8aKKOVBzMP7f0/8A54zf98L/AI0f2/p//PGb/vhf8aKKOVBzMP7f0/8A54zf98L/AI0f2/p/
+/PGb/vhf8aKKOVBzMP7f0/8A54zf98L/AI0f2/p//PGb/vhf8aKKOVBzMP7f0/8A54zf98L/AI0f
+2/p//PGb/vhf8aKKOVBzMP7f0/8A54zf98L/AI0f2/p//PGb/vhf8aKKOVBzMP7f0/8A54zf98L/
+AI0f2/p//PGb/vhf8aKKOVBzMP7f0/8A54zf98L/AI0f2/p//PGb/vhf8aKKOVBzMP7f0/8A54zf
+98L/AI0f2/p//PGb/vhf8aKKOVBzMP7f0/8A54zf98L/AI0f2/p//PGb/vhf8aKKOVBzMP7f0/8A
+54zf98L/AI0f2/p//PGb/vhf8aKKOVBzMP7f0/8A54zf98L/AI0f2/p//PGb/vhf8aKKOVBzMP7f
+0/8A54zf98L/AI0f2/p//PGb/vhf8aKKOVBzMP7f0/8A54zf98L/AI0f2/p//PGb/vhf8aKKOVBz
+MP7f0/8A54zf98L/AI0f2/p//PGb/vhf8aKKOVBzMP7e0/8A54zf98L/AI0DX9PHSGYf8AX/ABoo
+p8qDmY7/AISOy/55z/8AfK/40f8ACR2X/POf/vlf8aKKXKhczD/hI7L/AJ5z/wDfK/40f8JHZf8A
+POf/AL5X/GiijlQczD/hI7L/AJ5z/wDfK/40f8JHZf8APOf/AL5X/GiijlQczD/hI7L/AJ5z/wDf
+K/40f8JHZf8APOf/AL5X/GiijlQczD/hI7L/AJ5z/wDfK/41ia3qUF3eJJGsgAjC/MAO59/eiitI
+RVzOpJ8p/9k=
+
+--_007_CY4PR0601MB3586AE22EC693BF3E2944BCDE6A79CY4PR0601MB3586_
+Content-Type: image/png; name="image003.png"
+Content-Description: image003.png
+Content-Disposition: inline; filename="image003.png"; size=9625;
+	creation-date="Mon, 27 Sep 2021 12:39:09 GMT";
+	modification-date="Mon, 27 Sep 2021 12:39:09 GMT"
+Content-ID: <image003.png@01D7B3CA.D71F2FF0>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAdAAAACmCAYAAABqUd5oAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOwgAADsIBFShKgAAAJTtJREFUeF7tnf2LXdW5x/07+stVkAQCFQK1CEqFhAoJDSRIMaQ0QUok
+hYT0EuulSWiaSaVqW6SkjKmQauuY1k5K00nlGrl6J7Teib3ljDaMITpYcaQ149Vk8jp587nrWS97
+P+vZa++zZ89Lzpzz/cBKzt57rWet9axnre/e++w95zbqIPY8fZDe++Ajv7XwfHp2irbtedpvzQ8v
+HnmV/nN4xG8BTSf651bHJQCgM+koAb3VQEBvPfAPAGCxAAEFAAAAGgABBQAAABpQW0A///xzJCQk
+JCSkrk91aSugbOzChQv0/vvv0+nT79I775yiU6eQkJCQkJC6J7G2scax1rHm1RHSSgFlAx9//DF9
++OEEXb58mW7evOmPAAAAAN0FaxxrHWvemTNn2opoqYBywfPnLxhDH/o9AAAAQG8wMTFBU1PnK0U0
+KaBc4MaNG/SPf/yDLl265PcCAAAAvQFrH2sga2GZiCYFlC9jr1+/bu8L47YtAACAXoO1jzWQtbBM
+BwsCGq4+r127Rm+//Xe/FwAAAOgtWANZC8uuQksE9CZNT1+lt956y+8FAAAAegvWQNZC1sTaAnr9
++g26evUqjY6O+r0AAABAb8EayFrImjiDK9AbRnWnIaAAAAB6FtZA1sIZ3sKFgAIAAOhtIKAAAABA
+AyCgAAAAQAMgoAAAAEADIKAAAABAAyCgAAAAQAMgoAAAAEADIKAAAABAAyCgAAAAQAMgoAAAAEAD
+IKAAAABAAyCgAAAAQAMgoAAAAEADIKAAAABAAzpWQFt9d9Ltd+yjlt+eV1r7TF130t4FqaxLmTxB
+/ZvuoSXGj7ff9SDtHBynaX8oMDV2mHasXlbDz6O0l+30lcTX9Cj1r15Oq/pN8PpdM2eSBjeZOjYd
+Np/mmDmLp7lp4+Tgw6Y9D9NgYyPz6Kv5ZvIwbTRjsbF55wEoBQLKdJ2ATtCxXVtoxSMLtOAZQXti
+5Z20ZPU+Ghw5QUNPPmiEdBltPTblDo8doq3rllsf1/NzGwGdOk477rqTVjwJAa0DBLTbBXSB5zvI
+gIAyXSegXoAWaMGbGtpi/PcgDUz4HWZCD6wz9a8+RONma3JoO23sO0ytobp+biOgcwIEtD4Q0M5m
+Yec7yOkQAZ2g4b6H6UtLTRAsvYc2Hhwz2+ZzJKBTNDa4m9aaK4/bzdXNl9btpsFxvv6YomPbeN9u
+GhaXI9Mju+1V0M4RvzO6xfgAbe4/kQdbasHj/I88QF/k/HcsN2d3+2g4EwixKI2P0UFvd8ndD1P/
+iAjhYHd4nAZ3PWhtfdG0+5ixMz32HG28e5k5bvqyzQhNdCk1SSP93h+27gOUmw3icpzGgz+8z6wJ
+v2BwvSFVLx5t7DHT43Ssbwutsu3V/fT+v+8Ajfk9zFj//SbvdvIXoY7awqIFdNwJ8lLjbzsG6ngj
+P+eiMC7zbJK+Zsrijgk2nqOhg268rK9FP6eObbefw9W4Y4z67zPlHjlqrDPTNG5OLjav9FfpJj53
+DvMRLVwm3zGTb7WPYx4nGceZXw6bKxLnB26DFtDpYZ4b5gre+C8Ku8D0GA1sc+Xt7fhjJxICOsMY
+tXbsgIj5sp0GROBPtZ6jrevzObd2lxmb7HCNODXIux02BkakgJo4Wm3KyX6MHaB7zfF7+/PobfWZ
+WPDxXK9Nsb8Z/rpip2/HkrvTX2k46vWrdP2awXyfarFvhA03mYzTKuZ3wj/GUjTnS+32AB0goNM0
+0seL7XJ6qP8ojYwcp4FH19ASOzGDgE5T68kHTGA9SE+YRXJyYtTk4W23QLtFKv5uzU6CpbvJ6ufk
+Udpo7K149BC1JiZpfPgpWsvbISj0wu7zL1n9GA0Mn6CR4UO0Y6Vpj6/PZrGL0v20YvUGemLI51nN
+ASiuxLzdJXe5PMMDj9EKDrKVa2iVt+1ud95Ja7NCkzS0ydhZaY63Jmhy/Dg9sY63g0D5CXefCdQn
+g7+ML0z/7cnC9AS1Rp6jzZxn9T4aGjlh+pyeuo429hjjjx3bjEiMTdCU8X0/t++OLTRkfZG+Okle
+9TQSUDP2fdyeB0y50A953NDQz7bdpt+r1j9l/cTlVnHcrTtkTumY6rjLbBi7vOD50Ij7OX2CdrLN
+XcfzBXH8EK0yx3f6M74J4ys+2VvFPjbtGBk6QHuH2HHatyY2Ht1OB4fGaGLKjLMRMO7TZjcQBu8X
+E5c7j+WOj8Ziwiy4HNvGZnqZm3B1Ll1DOwaOm3g4auJvuZuPsh11YnSpmdMcU2H+mDFctdrbHXJz
+MPe1cVv/Bto7eILGJ80cHdptxzBfuGvEKffN5MnmLddx1zLroyAq7sQuP9lm3yxZatqe9c2J7BIf
+W7XapPw93XrK5FtGa580ojhpxsnGY/6VRkyNflWtX3Xn+8QhWmvyrDAnAGPWxgGz3vr5Uzm/47tJ
+lunjtNPYWjVg9lTZ7QFuvYD6M6j4DGecDvKZYhDQqaM2QPKFwmAmy0Nmnw1KP6Ah6G1QmgALNu2k
+UVdII3yFG/aphd1NshBAHrPocaDYoDG4RckEubzs9cEU8gS7+aI9TcO7uF/3U97dE24CbTrqJrA9
+45PHDSNsJ+zzE04sPEUf+jxK1NLUsaew7Qn+Stc1VwI6OeTEZWN0VpsftzTxs/nXCUV852Ji4EFT
+bo25MjIb7eIus6G+alD9jE7mDOMDa/LtqVdpq8m7RApshhZQje+TjHveLhuLcfdd9e0rTXuLlTlM
+22NRNpj5tUPabRCjfNXLPpExZeegaZc9VyhghHy97EvRpo5T62c1b6eHH7P1Zldltn/L6Ak7Nu5K
+auujj5l9Pg78eETzOqOkTZG/p2joEbMvu7vA+HLbXhX7Au371Xb9Khn3CB+TO5L9UkTzO8RPfmHg
+xtJvz8RuF3LrBTQsNiN+2xN9B+rzpJKbGH7BDAEVTfD8KqGYYvsuYMoWLR+kfrFKCoTKE9t1uH7J
+RTuuz9nlPMXk7Kg6LHpfYkL5SZnZy47VsTdlziwP0d5tG8wVRLidFdqTuC1mqCWg7dq06WF35m3a
+EU9P1b4Gfi5ue6Qt/zmVXNzVsMHYeAx3SNwZfXayF/Kq+HcU7U+Zq72Bvu30kLmSW2FvK5uUjVNq
+LI0VOxZraOMmvno2Y5Kt1EVc3g0qzxzEqO+nFKZCjEyO0uDB3bTZ9C3cTsz7nuqb3OfbuF5dWfsY
+ywRUXj3Zz3xiwf97UbXiIb56aNqmVNJxYqnZL2knS+HEzedP2vf4B/34pP9Lm/bRYEvmrJrffNid
+SIa1dmSX8UOoq9Ju99M5AhoGy+POTmOB4++FpqZU8vPRfefpRDM+YwsT6xCN6bKhcNSG4qLliAM9
+KRD6iiDRt+LDUanFaQMNjOm2TnkRaTfhxHbUh2llLyxk7e2N9fMtpQfsrbfW+CRN+auJ4K8hbr+8
+xWOwV1nqe+miP9q06dF9tPc+IzamH/Gar9rcwM/FbY88+24bdyU2Cu1x33naKwq7oIurt0Tbc5R9
+I8R8C5Fv5Q23xmlyyolBYdyjsTRWfEzt7eP/5a3wIum4jq+8GsVoop9RXXzlZ06Wlqzj2+l8i3qM
+BlJXe1Hf5L6SsfB3DDIBNWJhv7/jq8HWU7TExq0ry6Jq145gYzZt2nW84Js8viU1+1W1foX8uu8F
+pmhs6Cnaar9qWpa9BlY9vxnvM3tVbeoyPonuUJTY7QVuvYD674NWHZTLr3/IIiyA6pZGEv9d06qB
+w7ZsdhvVkLq1E6EmdzK/v4UbbhO6ya9uY9krDTFZE4tG24XdlCncQotoN+HEdtsJxbSz58dC2HJP
+3eb9crc9E0/hRrexDJViIcnrnzZlrGjwZ3+00OYmfg7b6taYu33vF/W2cadtehLtsT4ydR3juJF1
+hjqi/gVi+1HbGH9lUBj3bNuRCdUEf79pYrviKjTcao1uyYV6Qj+bxGjCJ1JAw8NW+XEdd6m+yX3h
+tv1j0UlbiNVcQEO9++jgwTXZ2NoTvm3P0UHj77B2NGtTOq7KadcvjuU261fIr+OwFOOrR01+Oz/a
+z2/GXaBsp6FjPPbq4cAMabc3uPUCGgLOnwHxQwv96+9RDxHxGRAHkXvQqDU2Ri2T76AJ+Hyg/K2F
+pfzQgFzMDf7M3T1cMEZjYydoeNBc3YQvX/TkDg9a6IeIxHdHbhKaunQe+Z1ao4XdBLS14x62GDN9
+HRk+bK4ewnd37SdcZtMslP3Dx+lY5W2VdvaErZFRag0foM138ViIfkVn6uGBnQfoCX2lk/BHmrhN
+4SGb/HtQ1eZGfg79MmfMfEXnHyKycZJ9H9ku7rRNT6qf9vvx++ledXLHceseklpGa/sO23aUPUQU
+Yo6fvG21jlP/I8uNX8zxbOxSYxnKeeGdNnlkLOt3avk4L6j84FR4OI4fImK7s4nRhE+idpnjXAc/
+jNJqjdLgLv8gYVZnqm/xPj7Z4hPYEIc8nvwQEdcrBdSdtPNYiAcP+WrUrh3x3YGZt8m41Agvl/vi
++gM01DLrTcvMiYPb6aCta8qIzHLj/6f8WtK+X23XL9OabI6WzfcWP9xzlMYmpmiCnxDm8bP9EGXL
+5jfjL1Duvc+cxMnv60vt9gYdIKCGqVH1KogJVh7UaAHkV122ZN/7LLl7DW3uHy1c4cQTPSd61Nos
+iCvW76ah8Dx6YnJPjx+lveGx8aX30Npth6glKssm/8ir/nF194rDkBTuhN32C7vB+INfI3CvCJiJ
+uHID7RwKj8HXmHCG/PWN5bRVPCFYpIa9CdHHTc/R2HDKX/KxfR7D1CROCEsS3Sb/1Gd2+1Edb+Tn
+fHvkWP76wNpdR9Xt4qq4S4wdk+ynf7hEn9xZJmnELLDuVRke7y3Ub4NN2+cX5t3rEuzjg2PHlZ9S
+Y2msSKEyuKdEjQ1jdyL1RykmjmZjya+C8HeE1q7s50xjNOGTuF3TNOZfBUq/OpPqW3HfxFB45ci/
+cuJjNRLQcNUlv2Lw343GD4Q1aZNjwtSbvZZk4mrVIwf8+tFAQA2V65eh7Xw3FwWyPdF6VmN+M+4O
+iHg6mKmy2wN0hoAuQvSiBEA1/l1WKUIALBr4FrkRaP3EeY8DAW0IBBTUonXU3lZz7/ZVP8ADQMcx
++SoNDOZ/njN+nQxAQBsCAQW14O/W7qi4rQ1AJ8N/xIFvz5b8QESvAwEFAAAAGgABBQAAABrQVkD/
+dPxvJNPR4f+lof/+Kx35rxHaf/CQzwYAAAD0FqyBrIWsiayNWi9vu3z5Msl06dIlunDhAp09e5ZO
+nDjhzQAAAAC9BWsgayFrImuj1ksIKAAAAJAAAgoAAAA0AAIKAAAANAACCgAAADQAAgoAAAA0AAIK
+AAAANAACCgAAADQAAgoAAAA0oAMEdJSe/9YzdMpv3Qo+eXkP9b38L7/FlLXpX/T6rj30+j/95hxR
+rL93OLV/C236lkvPF34nicchtT+GbaTy8P6Z+nVuxqJ5TJf1pYqZt3l+4nhWtJ6hTfu74U+D1vVt
+iBHOb+K/pO92frT1C9uqU6erqxAr/3yF+na9Qp/4zc7DrQNhndgk28pxU3ZMMF9rbIcLqA7G+Zj4
+xfrLnT0f9S8GAZ2/fmeLA09iMQ5OWJ+h52sIShPRKWNuxqIqpquBgC4SykSnZj/yMXNj0bcrES+2
+DnNsrvzC9vabOaVjc1EIaLw2ZPGu/B0dy2g+H9sBATUDEDuc66jbnrmhNwW0aDMlHnUEpYnolAEB
+vUV0iYCe2l/Hr3KNcWPxvCmnx5DH9fmXWfTmxi/WnomtQowtMgGNYkXHTSqOCmv83NE5Asod95fh
+bnA5sMSl+f7X1TY7qVg2d1Rc3tpMBEoh4O1ZmhoQb2PT/ldssGf5OW845geYgzQaQFlnIj8TL4C6
+37ktF/jcZ39M9MXZGM3KWnsFn3pknzIbdcdBBWfA9/MU99/mFX6S9WX71aQwxH5wzFRA+XPwrd4v
+fcf77Viptmo/ynFinH2Xsrb6vr+e1R365nwn22/rDD5MjINsc96+YNdh8/DC6tsg/ebKqJhmZF01
+4pip6zM3lqF80S/JmIjiyux/2bTP+oX3i3zc7ixGuU3uWJlvnC9ece3xfk6OmcCVEWMu6itdR/x2
+ts9i/CDKRm2U84bLZ9u+vy3nq7xeH0Pc/yxviZ+zeAufQx7tb58nsmkojJPokz+Wx3bsj4KdsF/F
+UZZf9jER/2lk/xLxIdog50+g3klNMzpEQI0DgxOiCaOcVdhWZe22P66DhPHBkA2U3jZEA2ADQg1W
+2NZls/rkYIfJaQK9NL/I44NTTnJuT9h2gRgHZjjmJmtoa4VPlV/yumcyDgmsr1R7RD0ZJX5i8rbk
+pCaEJuTRdcqyke8q2mo/izGXx+K2CJ94e/kx0bfI37pM3H+mrL/SN7YvIpayY9GYCWxdYvw4X9s4
+ru+zGNH3ijLWduSXfFv6gBc/vo3p2l6MGUb6xtYh8sT+TMexKxP2u7a4Mjq/6pvytWxHWVuZsjZF
++804ZGPazs/ic9wGQWRHtU2Nk9sW/YxiWyL9wzaLvo3H2fvabqfHIg3b5lj0SfrDxnJ+rNDOxDjN
+JZ1zBeq34m3t5IqA9mQBpIMiAeeNHW7sqcUkLi/qVwNnky+bTwTO79tXkT8PelU/IwIgnngGcSye
+OMpPKl+hHTYgZzAOsi+hvTpQo20uL+qz+yvGTqD7bCektxPy8j5eZKOJZZBlYzuqbu6PL1tsQ8ir
++uCTtan7HtkXn0vHK6fYTlGfb2Ocx9vi/kdtEMw6jplynzFxXHnbpTHB9QtbjLSXfTZ1mvx8ZZT5
+Oasz7ZvYrxVjJtBjkW+rOmwq6VuhT77uKA/j+hSXE2Nh+5Ha50j6WY4N5zfHdB91zETbhb6I44lj
+oY6QbD7VTof2CZO3leuQJzvliP4xXFdok6jX+ka1gfdpX8wl3SugnhBwRSfWKyu3qwI7IhyTeSry
+5/WYNulgFQGsJ4E8FrdV+ak0n2Qm45BAT7Rsm8umJmvRZqF/htQ+DedJCYgsG9tRfVWTMPZPyFvh
+A913ZZ9tct3hf6asX/l+tiHqE23UZdnuJtO21BUtU+yT6EtFXM7EZ7kNYbs0JpQtJmqHP27yP8/t
+5nLmWO6/ct/Efa0YM4H2T76daGdA963Mj5yPhSbZPka20X/m27nBVh0/J9rJYxcLbC54WQq2dF8M
+2din+im2Q75ivxhuo/afbqtvm6o/JlXGb0d+1+Oty809XSCgepLL457gZBkMZl8xkJWzbfCLfWwn
+2LfHEnVZnC1+MCA7XpE/Dz4uF181c4CGbTspsmCJj8UBrPyk+p0+65vJOCSQdTDZdjwmdhHw+aIF
+wfqn2K5sIlcgJ3FqcuvPhb6KSahtyDayDen/DN13bZ+P2+8dVZ1V/VX+kHXHfXFttGOvbJbZqhvH
+cT3lPuN8WexJe/xZ+kVsR2V83Evf8q3b5/c/49vl4i97UlX1h22FspkvPPJYhBpzWSbfLs7HDNW3
+6u/Zgu/YnvChJZ5bNt7kmlbHz3psPFFcFHzAZcQ4yRiQ/lX9tO3LbLENGWNFH2j/x+UDsQ+KJGIv
+tEn3TR1Ljt0c0uECmgdUcFK87fLyqw7hrCoKPL8vW1REMBQCno8VBlbUx0k/fBHVEU80W04EnqUk
+P+fNy7qgzPKJNnEw8qKSOhbbUAGZmgSiDuezmY1DAVWH3Jb18WP0eT63QLlj6Qlk+5wt4mlkHleX
+syX3x3ZUX3lcfL+sH7mNvr3xGMr2cirGlUP70pXTkzkaB19etzkct+Pu2xj3xbc52PYxxsdlvqiu
+mnFc12e2/6E8nzgG2xUx4eyFOk3+7CEiD9sXZW37xfEy30S+sJSMmR5zUSbelu00KWtTbtc+aCX7
+aYnLWT9y/2UfLWxHxr6yVcfPYmyicfZ2dLwEeL/tpx0XtufLaTGN+ib75dbezHYURyFWlP8T/uMU
+j5km9mVu2yD9Y3F22d58PjwU6AABnQ154MyIRCAvhLNnS9lEAJ2OXiRBN8GiVWdeLoY1pmtInqzM
+Pb0poIsUCOgiRV1NAQASyCvskDp83kBAFxEQ0MVGuE3VOzEKQC+xyAUUAAAAuDVAQAEAAIAGQEAB
+AACABkBAAQAAgAZ0tYAW3wmbbxb6oaa5qC9hw77PNTu79n20Go+RL/wYdSZVD4hl7+t1GGHs7FjL
+Jydn+PpAVQwUbPtk80fvHZpUWa9+lcg/4GXL5Mcq60vg8pfMlRnMI2sn+cTpfKwpvfXw5XwCATXM
+1dOtdeubO2Y/EYptrvnkaOEF5mYsvM8UhRfFbw2L7wnrPPZmO4b1ypec6IkYrD7RiAU0zqvFlak3
+t2zbTdni2Dmbyd/5LMB1mTk3YwFNtbsO9foG2gMBNczN4sXBvNBBOduJkGizWZTcz0G1sQsBnVMW
+nYDaOHHj1ikCWh2TudhwfXG+lBDVm1u27dFf1/LYF/nVn28sgW3Yn6eDgC46OkBA/WBy8Bdul7hj
+r3PAZ39eioMmv7USTwTOH465cs6WDrR8mxeuzFYWwOV12MmX2B//5YuqPpXbdouo6EN2rKyMr8dv
+xS8i5/vrtZkJ9pRdjehX9GfzKn6jsuw3NnW+3G5F/YaCr8Tio9sS9mW2Q97IX7mAybz5uBlkv4ON
+hC8CyTpLKPSnEBf8yY9LMq4MJeNvyyt/aHT9XF8+HnG/GPlXdeQYSgr1lviqrHxMIibZnoxfvR3h
+5zz/ycDCWOTrQU6ivgSu7Rzbcfncn21s8Jhxe8L/fndOccxdLCTWBG8j+11Pay8f09w39duV/I1Q
+kNEhAqoHNwSjO5ZPLhc0crJxoLptfUyW1RMk3nbB7j5X11EeeLGNqj5Jiu3IF746ZUR79ATMFpO6
+bZbb5WUy1GJl2y7ql4uiW4jzvthtX7Zs8SzbH4h95bZDft0Wuy3aKuvXfuO8cSz4dnO+Gfikss4E
+Nn9mPx77vE28X9oV+UrH39uWxxJE9du+5v4stF3VZY9zu3wqG4cI0b52Y+1IxGQUg27eyniOccfT
+QhDPQ0eNOWDI2h61xZS1/W5nQ8VX0ldsw7Q72OZ6snyq3WrcymOqRt+ULbedl3G2VSob6y6mc65A
+/RaTTyh9zGzrQcoCr3gst6MnSLzNwZBPqqo6uFwqUHQZ3W61SPAkEIEX6o7bobaTZUQ96rhNM2hz
+vIjF7ZeTJeqDWFR126W92DaT2y/Wm9cV7Kfq1/XlY6SPcf/jsYj6J8q5vKJ+n9hWsQ8BVSbzeXmd
+dfojt/PP8bgwWbtKxz9tO+RJ16/qUWPNdUp7Zb7R9aZ9FZdPtc1R7Lvuc54/rse1gfeZOc8/FVY4
+MfXHon3F+lJty9ue50/tcwIUyrt9kX+iOJTodsht1W5lIx4XmbfYtwKJ9hTHE3SPgCYGPLejJ0i8
+HQdGRR1+027zRPCLShyoTEWfeNILW7JuHaDZdmkZUY9a5ApUtpnthMktk15UBKo+3XZpv8o/+THe
+J+pr0x9dnxyj+BiPdTwWkd+isdVxklOoz8L5xf7MVps6E2j7cjv/XLQRxVWJv9Jtj4nzqHoi2xVt
+UMQ2y3xVXj4m4b92MR8hxpbLRbZS4149XgHZdveZb+eGchU2wnwsJJ1f25Dbqt1RLGu/yrw1+qZs
+MXXiqNfoEAHVk7dsoN0klJONB9Vtu2OxnTxvns9ggzcPvNRET9chCW3j/DoYy/vEQR0vRnk+HaBh
+u7xMaINB9SlNyJ9qs0TYLUMtXrrtemGRJwCyP1k+2/68TrZXtTjq47wd6tNt0Xkjf6qForTewqLL
+sJ9yn8t+VtaZINXmsJ1/lmPPiPorxl/bThHnUeMvx9p81nMhG0NF0WbaV2XlY1SbGBWD1XDMp+vX
+xxyJ+hJEbbdjIMe9ng1LFIeyPdqG3FbtVrEc+7XKZgIdT3Y7L8NjWxB/UXev0DFXoMnf9EwONO8T
+gyYnUAhgm+RDROqYEY/8t/QMdnHk/SEAyuqI99t2st3CJG7Xp7A//j09vdDl22VlXD2Zf0I/fHJ9
+r9tmibKbJNh1ftRtl5PXfi75jU2ZT05K+RuPKWx9nCfYFHl1W9zikduOJ3p+zJVReYUfuK3ahtxX
+/lunef4ydJvldv7ZjUs6rgzJ8U/5o0icJxFX3r+pn+SSYyjR9Zb5qqx8TCImZyGg2fjYNuhjTJ05
+UGx77J96Niw8J6PYCXa0jXg78yn7IbKh21Zis2wtsLZ4nQzxpP0DmI4R0FpB1oGkf+Ovs/u00L9L
+WG+BnBl1RKH7uMVx1fbECyw6zElIch4pMQZpIKDzQjf2qTkQ0LkCcQXmltKTaQhoLSCg8wIWOgkE
+dK5AXIEFAgJaiw4QUAAAAGDxAQEFAAAAGgABBQAAABoAAQUAAAAaAAEFAAAAGgABBQAAABoAAQUA
+AAAaAAEFAAAAGgABBQAAABoAAQUAAAAaAAEFAAAAGtBWQH2+jM8//5xu3LhB09PTNDqKX2YAAADQ
+m7AGshayJrI2aiCgAAAAQAIIKAAAANAACCgAAADQAAgoAAAA0AAIKAAAANAACCgAAADQAAgoAAAA
+0AAIKAAAANAACCgAAADQAAgoAAAA0AAIKAAAANAACCgAAADQAAgoAAAA0AAIKAAAANAACCgAAADQ
+AAgoAAAA0AAIKAAAANAACCgAAADQAAgoAAAA0AAIKAAA9Ch/Pn2D/v2FK7TmJxdpxeO9k7jPox/c
+8F5oDgQUAAB6EBbPlLj0UpqtiEJAAQCgB/nOC5etiNy95xzd8dgkfWHHxz2R/s30lfvMfWcfzAYI
+KAAA9CDhKowFJSU03Zz4hIH7zreuZwMEFAAAepAgoCmB6YUU+j8bIKAAANCDQEAhoAAAABoAAYWA
+AgAAaAAEFAIKAACgARBQCCgAAIAGQEAhoAAAABoAAYWAAgAAaAAEFAIKAACgAQsjoJ/Rs6eu07lr
+vlK6SR+OX6QtPwzHL9N7Zu+58fNu+4cX6W+c99MrtCGyM/cJAgoAAKAR8y+gk/TsRywqN+m9kxfp
+P16Yov2ta3TG7Lly5rIXSCmgn9JLZ0z+a9fppWe1rblPEFAAAACNmHcB/c20FcsPW59F+7/8P3yJ
++Tn97U+8nQvohr9epytGbN84sjB/WhACCgAAoBHzLaAPnuRfOjFXk9nt2pCcaJ45dTb7fO6jq/Qh
+/2+E9MtR3vlLEFAAAACNmG8B/f74TaLLV+n7hWPn6Y3L4batE1DHDTqyALduQ4KAAgAAaMR8C+iW
+U/4KtHDMieaHJz/NPp8bv7JgDw+FBAEFAADQiPkW0C/86SpdMfXo70Af/Ot1s/cGvf4b3g4Cep6+
+fOQqnQufRf75ShBQAAAAjZh3AQ1P1cqncE9etyJ55aOLXiRzAeWndu1tX37A6LX5f5AIAgoAAKAR
+8y+gJv3wLD07fsOKpsO9B5rfppUCytvu+9GFeJUFAgoAAKARCyKgHZwgoAAAABoBAYWAAgAAaAAE
+FAIKAACgARDQBRLQ69ev0xtvvEF9fX20a9cu2rlzJ33ve9+jzZs320wAAAAWFxDQ2Qvo4OAgXbly
+JRLQTz/9lH75y1/Sr3/9ayeg58+fpx/84Ae0evXqLK1atYq+8pWv2AIAAAAWFxDQ2QsoX0SeOXMm
+E1D+/49//CN97Wtfow0bNtBtU1NTVkD37t1rrzpZXXELFwAAFjcQ0NkL6Fe/+lU6fvy4vUvLAjo5
+OUk7duywF5kPPfQQ3cYHWUQhoAAA0D1AQGcvoCtXrqQf/ehHViNv3rxJr732Gq1du5bWrVtH69ev
+p9t+8YtfWNGEgAIAQPcAAZ29gH73u9+1V5pvvfUWffbZZ7Rnzx7atm0b/exnP3MC+uMf/9heluI7
+UAAA6B6CgPzbYwvz+5udlO4wfea+r/nJ7AT0xRdfpI0bN9LPf/5zGh4epq9//ev00ksv0W9/+1sn
+oE8//TR98sknVkC/+c1v0q9+9Sv63e9+ZzP89Kc/9WYAAAAsJr7zwmUrInfvOWcFJSU03Zj4hIH7
+zH1nH8wGvmXLGsm3bb/xjW/Qt7/9bfrggw/o97//vRNQFsqzZ8/iFi4AAHQRfz59I7sK7dU0+gH/
+5Fpz/vKXv9Cbb75pb+PyndmBgQH7WksmoKdPn8ZTuAAA0IWwiPJVGN/KTAlMtybu82zFk+G/j8AP
+EA0NDRE/L8SvtPDDRJmA8uO5QUC3bt1q1fbUqVN08uRJ+74LAAAA0IuwgPLFJF9Uhj+kEAko77hw
+4QI9/vjjeIgIAAAA8JQJ6JEjR+x3otnfwuVHdPl27jvvvENjY2P09ttv0x/+8Ad/FAAAAOgtWq1W
+QUAZvmvLDxPhj8kDAAAACVgDUwIagIACAAAACSCgAAAAQAMgoAAAAEADIKAAAABAAyCgAAAAQAMg
+oAAAAEADIKAAAABAA2YloH//+0n7GQAAAOglWPtYA2csoNev36CrV6/S6dPv0sWLs/s9NQAAAGCx
+wdrHGshayJo4gyvQm0Z1r9rfCX3vvff8EQAAAKA3GB8ftxrIWsiaOAMBvUHXrl2jS5cu0/vvv0/v
+vvuu/YPzuJ0LAACgW2GNY63jC0f+W7esgayFtW/hMvzX5vlnzvje78WLl4wK/5/9Q/Ot1ii9+eZf
+kZCQkJCQui6xxrHWseax9rEGshayJqZICqi8Cr1yxYko//X5s2fP0WefnUVCQkJCQuq6xBrHWsea
+x9pXdfXJJAWUcSJ60xpgFeZL2UuXLlnDFy5cREJCQkJC6prE2sYax1rHmufEM/3dZ6BUQJlwJRqu
+Rq9e5XTVGkdCQkJCQuqWxNrGGheuOquuPB1E/w89/td42PNojQAAAABJRU5ErkJggg==
+
+--_007_CY4PR0601MB3586AE22EC693BF3E2944BCDE6A79CY4PR0601MB3586_
+Content-Type: image/png; name="image004.png"
+Content-Description: image004.png
+Content-Disposition: inline; filename="image004.png"; size=4295;
+	creation-date="Mon, 27 Sep 2021 12:39:09 GMT";
+	modification-date="Mon, 27 Sep 2021 12:39:09 GMT"
+Content-ID: <image004.png@01D7B3CA.D71F2FF0>
+Content-Transfer-Encoding: base64
+
+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
+UmOpwuowIUgAAAAASUVORK5CYII=
+
+--_007_CY4PR0601MB3586AE22EC693BF3E2944BCDE6A79CY4PR0601MB3586_--

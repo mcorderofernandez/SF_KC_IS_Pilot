@@ -1,0 +1,256 @@
+{{!--
+    Global Template: Exit Intent Pop-Up with Email Capture
+
+    This global template displays a popup with an email capture when a user intends to exit the page.
+
+    There are two default Styles: Dark text for lighter backgrounds or light text on darker backgrounds.
+
+    Requirements:
+    1) Set the content zone(s) to that defined in your Sitemap.
+    2) Create a user attribute `emailAddress` to save the user's email to.
+
+    Customizations:
+    1) As a best practice, set the content zone to "global_popup".
+    See https://developer.evergage.com/web-integration/sitemap/contentzones for recommended names for content zones
+    mapped via the Sitemap.
+    2) Style options can be changed in Serverside Code.
+    3) Styling of the Style options, including fallback background color, can be changed in CSS.
+    4) Remove or change the default values for the configuration properties in Serverside Code.
+    5) Once validated, the user's email address will be sent to Interaction Studio and set to the user's
+    emailAddress attribute.
+    6) Media query breakpoints can be changed in CSS.
+    7) To support rich text, add the @richtext(true) decorator to configuration properties in Serverside Code.
+    Handlebars expressions for these properties must be wrapped in three sets of curly braces (e.g. {{{expression}}} ).
+    8) Change the value of the aria-label attributes as necessary.
+    9) Change the error message in the .evg-error-msg. Styling can be changed in CSS.
+--}}
+<link rel="stylesheet" href="https://staging-na01-kimberlyclark.demandware.net/on/demandware.static/Sites-MaisAbracos_BR-Site/-/pt_BR/v1629492053450/css/global.css" data-cssvars />
+<link rel="stylesheet" href="https://staging-na01-kimberlyclark.demandware.net/on/demandware.static/Sites-MaisAbracos_BR-Site/-/pt_BR/v1629492053450/css/login.css" data-cssvars />
+
+<div id="evg-exit-intent-popup-email-capture" data-evg-campaign-id="{{campaign}}"
+data-evg-experience-id="{{experience}}" data-evg-user-group="{{userGroup}}"
+aria-label="Popup{{#if header}} - {{header}}{{/if}}" role="dialog" aria-modal="true" aria-hidden="false">
+
+    <div class="evg-overlay" data-evg-dismissal></div>
+
+    <button class="evg-btn-dismissal showOnMobile" style="display:none;" data-evg-dismissal aria-label="Close Popup" tabindex="7">X</button>  <!-- id="mobileClose"   -->
+
+    <form id="maisabracos-form" name="maisabracos-form" class="" autocomplete=off >
+        <div class="evg-popup">
+
+            <input id="trackName" class="evg-hide" value="{{~trackName~}}" disabled>
+            <input id="trackID" class="evg-hide" value="{{experience}}" disabled>
+            <input id="have_Form" class="evg-hide" value="{{~have_Form~}}" disabled>
+            <input id="its_for_Known_User" class="evg-hide" value="{{~its_for_Known_User~}}" disabled>
+            <input id="have_Thank_You_page" class="evg-hide" value="{{~have_Thank_You_page~}}" disabled>
+            <input id="ctaExitUrl" class="evg-hide" value="{{~ctaExitUrl~}}" disabled>
+            <input id="ctaText" class="evg-hide" value="{{~ctaText~}}" disabled>
+            <input id="ctaExitText" class="evg-hide" value="{{~ctaExitText~}}" disabled>
+            <input id="confirmationCTAText" class="evg-hide" value="{{~confirmationCTAText~}}" disabled>
+
+            <div class="evg-main-panel">
+                <table style="height: 100%; width: 100%;" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="evg-main-panel-column noShowOnMobile" style="align=center; valign=top;">
+                            <img  src="{{imageDesktopUrl}}" style="width: 100%"/>
+                        </td>
+
+                        <td class="evg-main-panel-column">
+                            <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="tablepadding" style="height: 60px; background-color: #da291c;" valign="middle" align="center" >
+                                        <img  src="{{imageMaisAbracosUrl}}" style="height: auto; width: 25%;" />
+                                    </td>
+                                </tr>
+
+                                <tr class="showOnMobile" style="display:none;">
+                                    <td style="display: block;">
+                                        <img  src="{{imageMobileUrl}}" style="width: 100%; object-fit: cover;"/>
+                                    </td>
+                                </tr>
+
+                                <tr style="vertical-align: bottom;">
+                                    <td class="tablepadding" style="padding-top: 10px;">
+                                        {{#if its_for_Known_User}}
+                                            <div id="section_name">
+                                                <h1 class="evg-header evg-h1 evg-display-4 evg-style-text" >
+                                                    {{~startUsername~}}<p id="customerName" style="display: inline;"></p>{{~endUsername~}}
+                                                </h1>
+                                            </div>
+                                        {{/if}}
+                                        <h1 class="evg-header evg-h1 evg-display-4 evg-style-text" >
+                                            {{~header~}}
+                                        </h1>
+                                    </td>
+                                </tr>
+
+                                {{#if subheader}}
+                                <tr style="vertical-align: top;">
+                                    <td class="tablepadding">
+                                        <h2 class="evg-subheader evg-h2 evg-style-text">
+                                            {{~subheader~}}
+                                        </h2>
+                                    </td>
+                                </tr>
+                                {{/if}}
+
+                                {{#if have_Form}}
+                                <tr style="vertical-align: top;" class="tabform">
+                                    <td class="tablepadding">
+                                        <div class="form-group required" style="padding-top: 20px;">
+                                            <h2 class="evg-subheader evg-h2 evg-style-text">
+                                                {{~formHeader~}}
+                                            </h2>
+                                        </div>
+                                        
+                                        <div id="section_email" class="form-group required">
+                                            <input type="email" id="dwfrm_profile_customer_email" name="dwfrm_profile_customer_email" class="form-control email-field fs-mask required evg-input"  
+                                            aria-label="{{~labelEmail~}}" required="" aria-required="true" maxlength="50" tabindex="1" autocomplete="off"
+                                            data-missing-error="{{~fieldRequiredMessage~}}" data-pattern-mismatch="{{~validationEmailMessage~}}"
+                                            data-range-error="O m?ximo ? de 50 caracteres" pattern="^[\w.%+-]+@[\w.-]+\.[\w]{2,}$" onchange="changeValue(this);">
+                                            <label class="form-control-label" for="dwfrm_profile_customer_email">{{~labelEmail~}}</label>
+                                            <div class="invalid-feedback" id="form-email-error">{{~validationEmailMessage~}}</div>
+                                        </div>
+
+                                        <div class="form-group calendar-simplified required">
+                                            <input type="text" id="dwfrm_profile_customer_additionalFields_childDOB" name="dwfrm_profile_customer_additionalFields_childDOB" class="form-control js-dob-input js-input-readonly fs-mask required evg-input"
+                                                data-missing-error="{{~fieldRequiredMessage~}}" 
+                                                data-custom-language="{{lang.value}}" required aria-required="true" value maxLength="2147483647"/>
+                                            <label class="form-control-label" for="dwfrm_profile_customer_additionalFields_childDOB">{{~labelCalendar~}}</label>
+                                            <div class="invalid-feedback"></div>
+                                            <div class="datepicker-calendar">
+                                                <i class="acf-icon-calendar"></i>
+                                            </div>
+                                        </div>
+                                        <div class="form-group custom-control custom-checkbox kc-custom-control kc-custom-checkbox">
+                                            <input type="checkbox" id="accept-terms" name="dwfrm_profile_customer_acceptTerms" class="custom-control-input kc-custom-control-input" 
+                                            required aria-required="true" value="true" onchange="changeValue(this);" />
+                                            <label class="custom-control-label kc-custom-control-label form-control-label" for="accept-terms">
+                                                <p style="margin-bottom: 0px;">{{~checkText1Start~}}
+                                                    <a class="links" href="{{~termsLink~}}" target="_blank">{{~termsText~}}</a> da
+                                                    <a class="links" href="{{~privacyLink~}}" target="_blank">{{~privacyText~}}</a>
+                                                    {{~checkText1End~}}
+                                                </p>
+                                            </label>
+                                            <div class="invalid-feedback"></div>
+                                        </div>
+                                        <div id="check2" class="form-group custom-control custom-checkbox kc-custom-control kc-custom-checkbox">
+                                            <input type="checkbox" id="add-to-email-list" name="dwfrm_profile_customer_addtoemaillist" class="custom-control-input kc-custom-control-input" value="true" onchange="changeValue(this);" />
+                                            <label class="custom-control-label kc-custom-control-label form-control-label" for="add-to-email-list">{{~checkText2~}}</label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="vertical-align: middle;">
+                                    <td>
+                                        <div class="noShowOnMobile">
+                                            <div class="evg-style-text login" style="margin-top: 2vh;">
+                                                {{~loginTextStart~}} <a class="links" href="{{~loginUrl~}}" >{{~loginText~}}</a>
+                                            </div>
+                                            <div class="form-group ">
+                                                {{#if have_Thank_You_page}}
+                                                    <button type="button" class="evg-cta" data-evg-clickthrough onsubmit="return false;" aria-label="Submit" disabled>?&nbsp;{{~ctaText~}}</button>
+                                                {{else}}
+                                                    <button type="button" class="evg-confirm-cta" data-evg-clickthrough onsubmit="return false;" disabled>?&nbsp;{{~ctaExitText~}}</button>
+                                                {{/if}}
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                {{else}}
+                                    <tr style="height: 100px; vertical-align: top;">
+                                        <td>
+                                            <div class="noShowOnMobile">
+                                                <div class="evg-style-text login" style="margin-top: 2vh;">
+                                                    {{~loginTextStart~}} <a class="links" href="{{~loginUrl~}}" >{{~loginText~}}</a>
+                                                </div>
+                                                <div class="form-group ">
+                                                    <button type="button" class="evg-confirm-cta" data-evg-clickthrough onsubmit="return false;" aria-label="Submit" style="margin-top: auto;">?&nbsp;{{~ctaExitText~}}</button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                {{/if}}
+
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="evg-confirm-panel evg-hide">
+                <table style="height: 100%;" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="evg-main-panel-column">
+                            <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="tablepadding" style="height: 60px; background-color: #da291c;" valign="middle" align="center" >
+                                        <img  src="{{imageMaisAbracosUrl}}" style="height: auto; width: 20%;" />
+                                    </td>
+                                </tr>
+
+                                <tr style="height: 270px; vertical-align: bottom;">
+                                    <td class="tablepadding">
+                                        {{#if its_for_Known_User}}
+                                            <div id="section_name_confirmation">
+                                                <h1 class="evg-confirm-header evg-h1 evg-display-4 evg-style-text">
+                                                    <p id="customerNameConfirmation" style="display: inline;"> </p> {{~confirmationHeader~}}
+                                                </h1>
+                                            </div>
+                                        {{else}}
+                                            <h1 class="evg-confirm-header evg-h1 evg-display-4 evg-style-text">
+                                                {{~confirmationHeader~}}
+                                            </h1>
+                                        {{/if}}
+                                    </td>
+                                </tr>
+
+                                <tr style="height: 270px; vertical-align: top;">
+                                    <td class="tablepadding">
+                                        {{#if confirmationSubheader}}
+                                        <h2 class="evg-confirm-subheader evg-h2 evg-style-text">
+                                            {{~confirmationSubheader~}}
+                                        </h2>
+                                        {{/if}}
+
+                                        {{#if confirmationCTAText}}
+                                        <div class="form-group">
+                                            <a class="evg-confirm-exit-cta" href="{{~confirmationCTAUrl~}}">?&nbsp;{{~confirmationCTAText~}}</a>
+                                        </div>
+                                        {{/if}}
+                                    </td>
+                                </tr>
+
+                                <tr style="height: 60px; vertical-align: bottom;" class="noShowOnMobile">
+                                    <td class="tablepadding">
+                                        <div class="evg-style-text login" style="margin-top: 2vh;">
+                                            {{~loginTextStart~}} <a class="links" href="{{~loginUrl~}}" >{{~loginText~}}</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <button class="evg-btn-dismissal noShowOnMobile" data-evg-dismissal aria-label="Close Popup" tabindex="7">X</button>
+
+        </div>
+
+        
+        
+        <div id="ctaFixed">
+            <div class="evg-style-text login" style="margin-top: 2vh;">
+                {{~loginTextStart~}} <a class="links" href="{{~loginUrl~}}" >{{~loginText~}}</a>
+            </div>
+            <div class="form-group">
+                {{#if have_Thank_You_page}}
+                    <button type="button" class="evg-cta" data-evg-clickthrough onsubmit="return false;" aria-label="Submit" style="margin-top: auto;" disabled>?&nbsp;{{~ctaText~}}</button>
+                {{else}}
+                    <button type="button" class="evg-confirm-cta" data-evg-clickthrough onsubmit="return false;" style="margin-top: auto;" disabled>?&nbsp;{{~ctaExitText~}}</button>
+                {{/if}}
+            </div>
+        </div>
+    </form>
+</div>
